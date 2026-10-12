@@ -1,0 +1,2188 @@
+<!doctype html><html><head><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><meta name=claude:viewport-fit-sides content=cover><style>:root{box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-right:env(safe-area-inset-right,0px);padding-bottom:env(safe-area-inset-bottom,0px);padding-left:env(safe-area-inset-left,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}</style><style>.md-table{overflow-x:auto}@media print{.md-table{overflow-x:visible}}</style><style>:root{color-scheme:light dark;--md-bg:#fff;--md-text:rgba(0,0,0,.8);--md-muted:rgba(0,0,0,.6);--md-fill:rgba(0,0,0,.04);--md-fill-strong:rgba(0,0,0,.06);--md-rule:rgba(0,0,0,.1);--md-rule-strong:rgba(0,0,0,.16);--md-link:hsl(210 100% 45%)}@media (prefers-color-scheme:dark){:root:where(:not([data-theme="light"])){--md-bg:#0d0d0d;--md-text:rgba(255,255,255,.85);--md-muted:rgba(255,255,255,.6);--md-fill:rgba(255,255,255,.06);--md-fill-strong:rgba(255,255,255,.09);--md-rule:rgba(255,255,255,.14);--md-rule-strong:rgba(255,255,255,.22);--md-link:hsl(210 100% 72%)}}:root[data-theme="dark"]{color-scheme:dark;--md-bg:#0d0d0d;--md-text:rgba(255,255,255,.85);--md-muted:rgba(255,255,255,.6);--md-fill:rgba(255,255,255,.06);--md-fill-strong:rgba(255,255,255,.09);--md-rule:rgba(255,255,255,.14);--md-rule-strong:rgba(255,255,255,.22);--md-link:hsl(210 100% 72%)}:root[data-theme="light"]{color-scheme:light}@media print{:root,:root[data-theme="dark"]{color-scheme:light;--md-bg:#fff;--md-text:rgba(0,0,0,.8);--md-muted:rgba(0,0,0,.6);--md-fill:rgba(0,0,0,.04);--md-fill-strong:rgba(0,0,0,.06);--md-rule:rgba(0,0,0,.1);--md-rule-strong:rgba(0,0,0,.16);--md-link:hsl(210 100% 45%)}}body{background:var(--md-bg);color:var(--md-text);max-width:720px;margin:0 auto;padding:32px;display:flex;flex-direction:column;gap:10px;font:14px/1.55 -apple-system,BlinkMacSystemFont,'SF Pro','Segoe UI',sans-serif;overflow-wrap:break-word}body>:first-child{margin-top:0}h1,h2,h3,h4,h5,h6{margin:6px 0 0;line-height:1.25;font-weight:600;text-wrap:balance}h1{font-size:1.35em}h2{font-size:1.15em;color:var(--md-muted)}h3,h4,h5,h6{font-size:1em}p,ul,ol,blockquote,table,pre,hr{margin:0}strong{font-weight:600}a{color:var(--md-link);text-decoration:none}a:hover{text-decoration:underline}ul,ol{display:flex;flex-direction:column;gap:6px;padding-left:22px}ul{list-style:disc}ol{list-style:decimal}:is(li,td,th)>*+:is(p,ul,ol,blockquote){margin-top:6px}blockquote{display:flex;flex-direction:column;gap:10px;border-left:2px solid var(--md-rule);padding-left:10px;color:var(--md-muted)}:not(pre)>code{background:var(--md-fill);padding:1px 3px;border-radius:4px;font:.92em 'SF Mono',ui-monospace,Menlo,Consolas,monospace}a>code{background:none;color:inherit}pre{background:var(--md-fill);padding:10px 12px;border-radius:6px;overflow-x:auto;font:12px/1.5 'SF Mono',ui-monospace,Menlo,Consolas,monospace;margin-block:4px}pre code{background:none;padding:0;font:inherit}table{width:100%;border-collapse:separate;border-spacing:2px;font:inherit}th,td{padding:6px 8px;border-radius:3px;text-align:left;vertical-align:top}th{background:var(--md-fill-strong);font-weight:600}td{background:var(--md-fill)}:is(th,td) :not(pre)>code{background:transparent}hr{border:0;border-top:1px solid var(--md-rule-strong);margin-block:10px}img{max-width:100%;height:auto;border-radius:4px}</style>
+</head><body>
+<h1>Self-Study Curriculum: MIT Physics (SB, Course 8) — Focused Option</h1>
+<p><em>Built October 12, 2026 · 12 hours/week · starting level: high-school math and physics · free/open resources first</em></p>
+<hr>
+<h2>Read this first</h2>
+<ul>
+<li><strong>Source of truth:</strong> the MIT Bulletin degree chart for the Focused Option (<a href="https://catalog.mit.edu/degree-charts/physics-course-8/">catalog.mit.edu/degree-charts/physics-course-8</a>) and the Physics subject descriptions (<a href="https://catalog.mit.edu/subjects/8/">catalog.mit.edu/subjects/8</a>), both read on Oct 12, 2026. Anything I added that is <strong>not</strong> in the catalog is labeled <strong>[My addition]</strong>.</li>
+<li><strong>Scope of this plan:</strong> the <em>Departmental Program</em> (11 required subjects + restricted electives) plus the calculus/physics prerequisites the catalog's own prerequisite fields point to. I did <strong>not</strong> plan the rest of the General Institute Requirements (chemistry, biology, 8 HASS subjects, PE/swimming) or the 48 units of unrestricted electives.</li>
+<li><strong>Headline estimate:</strong> about <strong>3,350 study hours ≈ 278 study weeks at 12 hrs/week → roughly 5.5–6 years</strong> (realistic range 5–7 years). Section 11 shows the math.</li>
+<li><strong>Honest framing:</strong> this plan can teach you the <em>content</em> of the degree. It cannot give you an MIT degree, the supervised lab and research experience, or a credential. Section 1.5 lists what can't be replicated.</li>
+<li><strong>Assumptions (tell me if any are wrong):</strong> (1) you have high-school algebra and geometry, maybe some trig, but no calculus; (2) no programming background required (Python is optional enrichment); (3) you want depth over speed; (4) you can protect 12 hrs/week most weeks.</li>
+</ul>
+<hr>
+<h1>1. Program overview and curriculum analysis</h1>
+<h2>1.1 How the Focused Option is structured (per the catalog)</h2>
+<div class="md-table" role="region" aria-label="Table" tabindex="0"><table>
+<thead>
+<tr>
+<th>Component</th>
+<th>What the catalog says</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>General Institute Requirements</td>
+<td>17 subjects: Science ×6, HASS ×8, REST ×2, Lab ×1 (12 units), plus PE. REST can be satisfied by 8.03 or 8.04 and 18.03; the Lab requirement by 8.13.</td>
+</tr>
+<tr>
+<td>Departmental Program</td>
+<td>11 required subjects (below) + restricted electives.</td>
+</tr>
+<tr>
+<td>Communication</td>
+<td>At least two communication-intensive (CI-M) subjects in the major; the chart marks 8.06 and 8.13 as CI-M.</td>
+</tr>
+<tr>
+<td>Units</td>
+<td>174 units in major; 48 units unrestricted electives; 186 units beyond the GIRs.</td>
+</tr>
+<tr>
+<td>Footnotes</td>
+<td>18.032 is an acceptable alternative to 18.03. A 12-unit thesis is required (max 30 thesis units counted). Subject descriptions identify subjects that can't count as restricted electives.</td>
+</tr>
+</tbody>
+</table>
+</div>
+<h2>1.2 Required subjects: what they teach, why they matter</h2>
+<p>&quot;Units&quot; are MIT's weekly-hours measure (a 12-unit subject ≈ 12 hrs/week for a ~14-week term).</p>
+<div class="md-table" role="region" aria-label="Table" tabindex="0"><table>
+<thead>
+<tr>
+<th>Subject</th>
+<th>Units</th>
+<th>Catalog prerequisites</th>
+<th>What it teaches (plain language)</th>
+<th>Why it matters / what you should gain</th>
+<th>Level</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>18.03</strong> Differential Equations 1</td>
+<td>12</td>
+<td><em>OCW:</em> 18.01; 18.02 as co-requisite</td>
+<td>How to write and solve equations that describe how things change over time (springs, circuits, decay, driven oscillations).</td>
+<td>Nearly every later physics subject is a differential equation in disguise. You should be able to model a system, solve it, and interpret the solution.</td>
+<td>Essential</td>
+</tr>
+<tr>
+<td><strong>8.03</strong> Physics III</td>
+<td>12</td>
+<td>Calculus II + Physics II</td>
+<td>Vibrations, coupled oscillators and normal modes, waves, interference, diffraction, light as a wave.</td>
+<td>First place where &quot;modes,&quot; superposition and Fourier-style thinking appear — the backbone of wave mechanics in quantum theory.</td>
+<td>Essential</td>
+</tr>
+<tr>
+<td><strong>8.033</strong> Relativity</td>
+<td>12</td>
+<td>Calculus II + Physics II</td>
+<td>Einstein's postulates, Lorentz transformations, four-vectors, relativistic energy/momentum, intro to general relativity.</td>
+<td>The modern framework for space, time and energy; needed for particle physics and for reading modern physics at all.</td>
+<td>Essential</td>
+</tr>
+<tr>
+<td><strong>8.04</strong> Quantum Physics I</td>
+<td>12</td>
+<td>8.03 and (18.03 or 18.032)</td>
+<td>Experimental basis of quantum physics; Schrödinger's equation in 1D and 3D; hydrogen atom; intro to spin-½.</td>
+<td>Your first real quantum mechanics. You should be able to solve standard 1D problems and explain what a wavefunction means.</td>
+<td>Essential</td>
+</tr>
+<tr>
+<td><strong>8.044</strong> Statistical Physics I</td>
+<td>12</td>
+<td>8.03 and 18.03</td>
+<td>Probability, thermodynamics (three laws), microcanonical and canonical ensembles; magnetism, gases, radiation, noise.</td>
+<td>Connects the microscopic to the macroscopic; the language of entropy and temperature used across physics.</td>
+<td>Essential</td>
+</tr>
+<tr>
+<td><strong>8.05</strong> Quantum Physics II</td>
+<td>12</td>
+<td>8.04</td>
+<td>The formal structure: vector spaces, operators, Dirac notation, uncertainty, angular momentum, entanglement, density matrices.</td>
+<td>Turns quantum mechanics from &quot;solving equations&quot; into a linear-algebra framework.</td>
+<td>Essential</td>
+</tr>
+<tr>
+<td><strong>8.06</strong> Quantum Physics III (CI-M)</td>
+<td>12</td>
+<td>8.05</td>
+<td>Perturbation theory, atomic structure, Landau levels, scattering, time-dependent perturbation theory; you write a research paper.</td>
+<td>Where quantum theory becomes a working tool for real systems.</td>
+<td>Essential</td>
+</tr>
+<tr>
+<td><strong>8.13</strong> Experimental Physics I (CI-M)</td>
+<td>18</td>
+<td>8.04</td>
+<td>Advanced modern-physics lab: technique, troubleshooting, data analysis, uncertainty, scientific writing/speaking. Satisfies the Institute Lab requirement.</td>
+<td>Experimental judgment — the part of physics you can't get from lectures.</td>
+<td>Essential (<strong>partly replicable</strong> — §1.5)</td>
+</tr>
+<tr>
+<td><strong>8.14</strong> Experimental Physics II</td>
+<td>18</td>
+<td>8.05 and 8.13</td>
+<td>Continuation with more advanced experiments plus an open-ended project taken from proposal to poster.</td>
+<td>Independent experimental design.</td>
+<td>Essential (<strong>partly replicable</strong>)</td>
+</tr>
+<tr>
+<td><strong>8.223</strong> Classical Mechanics II</td>
+<td>6</td>
+<td>Calculus II + Physics I</td>
+<td>Lagrangian and Hamiltonian mechanics, canonical transformations, Poisson brackets.</td>
+<td>Foundations for quantum mechanics and statistical physics. Offered in IAP at MIT.</td>
+<td>Essential</td>
+</tr>
+<tr>
+<td><strong>8.THU</strong> Undergraduate Physics Thesis</td>
+<td>12</td>
+<td>none listed</td>
+<td>Research leading to an SB thesis, arranged under approved supervision.</td>
+<td>Doing and writing up original work.</td>
+<td>Essential (<strong>not replicable</strong> as supervised research)</td>
+</tr>
+</tbody>
+</table>
+</div>
+<h2>1.3 Restricted electives</h2>
+<div class="md-table" role="region" aria-label="Table" tabindex="0"><table>
+<thead>
+<tr>
+<th>Requirement (catalog)</th>
+<th>Units</th>
+<th><strong>[My addition]</strong> choice for this plan</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>One Mathematics-department subject beyond 18.03</td>
+<td>12</td>
+<td><strong>18.06 Linear Algebra</strong> — chosen because 8.05 is built on vector spaces and operators. <em>Confirm with MIT's Physics Academic Programs office if you ever need formal credit; I can't verify which Math subjects the department accepts.</em></td>
+</tr>
+<tr>
+<td>Two Physics-department subjects beyond the required list, including at least one of 8.07, 8.08, 8.09</td>
+<td>24</td>
+<td><strong>8.07 Electromagnetism II</strong> and <strong>8.09 Classical Mechanics III</strong>. 8.09's prerequisite is 8.223, which you already take. (8.08 is an IAP statistical-physics subject that needs 8.044 and 8.05 — a valid alternative.)</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>Catalog warning: 8.20 and 8.282 are explicitly <em>not</em> usable as restricted electives by Physics majors, so I didn't plan them.</p>
+<h2>1.4 Supporting prerequisites the catalog points to</h2>
+<p>The departmental chart does not list these, but the catalog's own prerequisite fields refer to them as General Institute Requirements, so a beginner must take them first:</p>
+<ul>
+<li><strong>Calculus I (18.01)</strong> and <strong>Calculus II (18.02)</strong> — <strong>[prerequisite per catalog fields]</strong></li>
+<li><strong>Physics I (8.01)</strong> and <strong>Physics II (8.02)</strong> — <strong>[prerequisite per catalog fields]</strong></li>
+<li><strong>18.06 Linear Algebra</strong> — <strong>[My addition]</strong> (see 1.3)</li>
+<li><strong>Stage 0 precalculus bridge</strong> — <strong>[My addition]</strong> because you're starting from high-school math</li>
+</ul>
+<p><strong>Optional enrichment [My addition], not required:</strong> basic Python for data analysis and simulations (the catalog's 8.006, 8.16 and 8.316 show Python/data analysis is used in the department); catalog electives such as 8.231 Physics of Solids I, 8.284 Modern Astrophysics, 8.286 The Early Universe, 8.16 Data Science in Physics.</p>
+<h2>1.5 What independent study cannot fully replicate</h2>
+<div class="md-table" role="region" aria-label="Table" tabindex="0"><table>
+<thead>
+<tr>
+<th>Item</th>
+<th>Why</th>
+<th>Substitute in this plan</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>8.13 / 8.14 labs</strong></td>
+<td>The OCW Junior Lab syllabus describes formal training for sealed radioactive sources, plus lab work involving Class 3b/4 lasers, biological materials and a nuclear reactor, all requiring institutional access.</td>
+<td>Stage 16: home/low-cost experiments, public data analysis, and lab-report writing using the OCW Junior Lab guides. A <strong>partial</strong> substitute only.</td>
+</tr>
+<tr>
+<td><strong>8.THU thesis</strong></td>
+<td>Supervised research under an approved advisor.</td>
+<td>Stage 17: an independent project with an outside reader. Not equivalent.</td>
+</tr>
+<tr>
+<td><strong>CI-M writing and speaking feedback</strong></td>
+<td>Instructor and peer feedback built into 8.06/8.13.</td>
+<td>Write the 8.06 term paper and lab reports; get feedback from a physics-literate reader or an online physics community.</td>
+</tr>
+<tr>
+<td><strong>TAs, office hours, proctored exams</strong></td>
+<td>Not available.</td>
+<td>Self-administered closed-book exams (§9) and a remediation protocol.</td>
+</tr>
+<tr>
+<td><strong>Credential</strong></td>
+<td>Degrees are conferred by the institution.</td>
+<td>None. Treat any portfolio you build as evidence of competence, not a degree.</td>
+</tr>
+</tbody>
+</table>
+</div>
+<hr>
+<h1>2. Prerequisite map</h1>
+<p>Solid arrows = prerequisite stated in the catalog (or OCW syllabus). Dotted arrows = <strong>[My addition]</strong> sequencing for self-study.</p>
+<pre class="mermaid">flowchart TD
+  S0[&#34;Stage 0: Precalculus bridge&#34;] -.-&gt; C1[&#34;18.01 Calculus I&#34;]
+  C1 -.-&gt; P1[&#34;8.01 Mechanics&#34;]
+  C1 --&gt; C2[&#34;18.02 Multivariable Calculus&#34;]
+  C1 --&gt; P2[&#34;8.02 Electricity and Magnetism&#34;]
+  P1 --&gt; P2
+  C1 --&gt; D[&#34;18.03 Differential Equations&#34;]
+  C2 -.-&gt; D
+  C2 --&gt; P3[&#34;8.03 Vibrations and Waves&#34;]
+  P2 --&gt; P3
+  C2 --&gt; R[&#34;8.033 Relativity&#34;]
+  P2 --&gt; R
+  P3 --&gt; Q1[&#34;8.04 Quantum I&#34;]
+  D --&gt; Q1
+  L[&#34;18.06 Linear Algebra&#34;] -.-&gt; Q1
+  Q1 --&gt; Q2[&#34;8.05 Quantum II&#34;]
+  L -.-&gt; Q2
+  Q2 --&gt; Q3[&#34;8.06 Quantum III&#34;]
+  C2 --&gt; M2[&#34;8.223 Classical Mechanics II&#34;]
+  P1 --&gt; M2
+  M2 --&gt; M3[&#34;8.09 Classical Mechanics III&#34;]
+  P3 --&gt; S[&#34;8.044 Statistical Physics I&#34;]
+  D --&gt; S
+  M2 -.-&gt; S
+  P3 --&gt; E2[&#34;8.07 Electromagnetism II&#34;]
+  D --&gt; E2
+  Q1 --&gt; L1[&#34;8.13 Experimental Physics I&#34;]
+  L1 --&gt; L2[&#34;8.14 Experimental Physics II&#34;]
+  Q2 --&gt; L2
+  Q3 -.-&gt; T[&#34;8.THU Thesis&#34;]
+  L2 -.-&gt; T
+</pre>
+<h2>2.1 Skill-level prerequisites by subject</h2>
+<div class="md-table" role="region" aria-label="Table" tabindex="0"><table>
+<thead>
+<tr>
+<th>Subject</th>
+<th>You must already be able to…</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Stage 0 → 18.01</td>
+<td>Manipulate algebra fluently; work with functions, exponentials, logarithms; use trig and radians; read slopes from graphs.</td>
+</tr>
+<tr>
+<td>8.01</td>
+<td>Differentiate and integrate simple functions (from 18.01); resolve vectors into components.</td>
+</tr>
+<tr>
+<td>8.02</td>
+<td>Use calculus and vectors; (18.02 vector calculus strongly helps with Maxwell's equations).</td>
+</tr>
+<tr>
+<td>18.03</td>
+<td>Differentiate/integrate fluently (18.01); partial derivatives help (18.02).</td>
+</tr>
+<tr>
+<td>8.03</td>
+<td>Solve simple ODEs; use complex numbers and trig identities; know E&amp;M from 8.02.</td>
+</tr>
+<tr>
+<td>8.033</td>
+<td>Multivariable calculus basics; E&amp;M basics; algebra with matrices helps.</td>
+</tr>
+<tr>
+<td>8.04</td>
+<td>Solve linear ODEs; complex numbers; Fourier-type ideas from 8.03; basic probability.</td>
+</tr>
+<tr>
+<td>8.044</td>
+<td>Partial derivatives and multivariable integrals; 8.03-level waves; comfort with probability.</td>
+</tr>
+<tr>
+<td>8.05</td>
+<td>Linear algebra: vector spaces, eigenvalues, matrix operators.</td>
+</tr>
+<tr>
+<td>8.06</td>
+<td>Fluency with 8.05 formalism; angular momentum.</td>
+</tr>
+<tr>
+<td>8.07 / 8.09</td>
+<td>Vector calculus; Lagrangian formalism (8.223) for 8.09.</td>
+</tr>
+<tr>
+<td>8.13 / 8.14</td>
+<td>8.04 / 8.05 respectively; basic data analysis and uncertainty.</td>
+</tr>
+</tbody>
+</table>
+</div>
+<hr>
+<h1>3. Diagnostic assessment</h1>
+<p><strong>Purpose:</strong> find gaps before you spend months in the wrong place.</p>
+<p><strong>Rules:</strong> Closed book, <strong>no internet, no AI</strong>. One sitting, <strong>90 minutes</strong>, scratch paper and a basic scientific calculator allowed. Write answers before checking the key. 1 point per question (30 total). Show all work; mark any answer you guessed.</p>
+<h3>Part A — Algebra (6)</h3>
+<ol>
+<li>Solve: 3(2x − 5) = 4x + 7.</li>
+<li>Solve: x² − 5x − 14 = 0.</li>
+<li>Solve the system: 2x + y = 7 and x − y = −1.</li>
+<li>Simplify: (x²y³)² / (x·y²).</li>
+<li>Solve the inequality: 3 − 2x ≥ 9.</li>
+<li>Solve v² = u² + 2as for s.</li>
+</ol>
+<h3>Part B — Functions, exponentials, logarithms (5)</h3>
+<ol start="7">
+<li>If f(x) = x² − 3x, find f(−2) and simplify f(x + 1).</li>
+<li>Find the domain of g(x) = √(x − 2) / (x − 5).</li>
+<li>Evaluate log₂ 40 − log₂ 5.</li>
+<li>Solve 5^(2x) = 125.</li>
+<li>A substance decays: N = 800·(½)^(t/6), t in hours. Find N at t = 18 h.</li>
+</ol>
+<h3>Part C — Trigonometry and geometry (5)</h3>
+<ol start="12">
+<li>Give sin 30°, cos 60°, tan 45°.</li>
+<li>Convert 135° to radians.</li>
+<li>A right triangle has hypotenuse 13 and one leg 5. Find the other leg and sin of the angle opposite the 5.</li>
+<li>Solve sin x = ½ for 0 ≤ x &lt; 2π.</li>
+<li>If sin θ = 3/5 and π/2 &lt; θ &lt; π, find cos θ.</li>
+</ol>
+<h3>Part D — Vectors and units (4)</h3>
+<ol start="17">
+<li>For a = (3, 4): find |a| and the unit vector in its direction.</li>
+<li>Compute (2, −1, 3) · (1, 4, 2).</li>
+<li>Convert 72 km/h to m/s.</li>
+<li>With x = length, v = speed, a = acceleration, t = time, which are dimensionally consistent: (i) x = vt (ii) x = ½at (iii) x = ½at²?</li>
+</ol>
+<h3>Part E — High-school physics (6)</h3>
+<ol start="21">
+<li>A car goes from 10 m/s to 30 m/s uniformly in 5 s. Find its acceleration and distance covered.</li>
+<li>A 2 kg block feels a net force of 6 N. Find its acceleration.</li>
+<li>A 0.5 kg ball is dropped from 20 m (g = 9.8 m/s², ignore air). Find its speed at the ground.</li>
+<li>A 12 V source drives a 4 Ω and a 6 Ω resistor in series. Find the current and the voltage across the 6 Ω resistor.</li>
+<li>A wave has frequency 500 Hz and wavelength 0.68 m. Find its speed.</li>
+<li>In 2–3 sentences, explain Newton's third law with an example, naming which bodies each force acts on.</li>
+</ol>
+<h3>Part F — Calculus readiness (4) <em>(informational; you may miss all of these)</em></h3>
+<ol start="27">
+<li>Find the slope of the line through (1, 2) and (4, 8).</li>
+<li>Evaluate lim (x→2) (x² − 4)/(x − 2).</li>
+<li>Find d/dx (x³) at x = 2.</li>
+<li>Evaluate ∫₀³ 2x dx.</li>
+</ol>
+<h2>3.1 Answer key</h2>
+<div class="md-table" role="region" aria-label="Table" tabindex="0"><table>
+<thead>
+<tr>
+<th>#</th>
+<th>Answer</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>x = 11</td>
+</tr>
+<tr>
+<td>2</td>
+<td>x = 7 or x = −2</td>
+</tr>
+<tr>
+<td>3</td>
+<td>x = 2, y = 3</td>
+</tr>
+<tr>
+<td>4</td>
+<td>x³y⁴</td>
+</tr>
+<tr>
+<td>5</td>
+<td>x ≤ −3</td>
+</tr>
+<tr>
+<td>6</td>
+<td>s = (v² − u²)/(2a)</td>
+</tr>
+<tr>
+<td>7</td>
+<td>f(−2) = 10; f(x+1) = x² − x − 2</td>
+</tr>
+<tr>
+<td>8</td>
+<td>x ≥ 2 and x ≠ 5</td>
+</tr>
+<tr>
+<td>9</td>
+<td>3</td>
+</tr>
+<tr>
+<td>10</td>
+<td>x = 3/2</td>
+</tr>
+<tr>
+<td>11</td>
+<td>N = 100</td>
+</tr>
+<tr>
+<td>12</td>
+<td>½, ½, 1</td>
+</tr>
+<tr>
+<td>13</td>
+<td>3π/4</td>
+</tr>
+<tr>
+<td>14</td>
+<td>Other leg 12; sin = 5/13</td>
+</tr>
+<tr>
+<td>15</td>
+<td>x = π/6, 5π/6</td>
+</tr>
+<tr>
+<td>16</td>
+<td>cos θ = −4/5</td>
+</tr>
+<tr>
+<td>17</td>
+<td></td>
+</tr>
+<tr>
+<td>18</td>
+<td>4</td>
+</tr>
+<tr>
+<td>19</td>
+<td>20 m/s</td>
+</tr>
+<tr>
+<td>20</td>
+<td>(i) and (iii) only</td>
+</tr>
+<tr>
+<td>21</td>
+<td>a = 4 m/s²; distance = 100 m</td>
+</tr>
+<tr>
+<td>22</td>
+<td>a = 3 m/s²</td>
+</tr>
+<tr>
+<td>23</td>
+<td>v = √392 ≈ 19.8 m/s</td>
+</tr>
+<tr>
+<td>24</td>
+<td>I = 1.2 A; V across 6 Ω = 7.2 V</td>
+</tr>
+<tr>
+<td>25</td>
+<td>340 m/s</td>
+</tr>
+<tr>
+<td>26</td>
+<td>Full credit: forces equal in magnitude, opposite in direction, acting on <strong>different</strong> bodies (e.g., you push a wall, the wall pushes you).</td>
+</tr>
+<tr>
+<td>27</td>
+<td>2</td>
+</tr>
+<tr>
+<td>28</td>
+<td>4</td>
+</tr>
+<tr>
+<td>29</td>
+<td>12</td>
+</tr>
+<tr>
+<td>30</td>
+<td>9</td>
+</tr>
+</tbody>
+</table>
+</div>
+<h2>3.2 Scoring and placement</h2>
+<div class="md-table" role="region" aria-label="Table" tabindex="0"><table>
+<thead>
+<tr>
+<th>Part</th>
+<th>Score</th>
+<th>Decision</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>A (6)</td>
+<td>≤ 4</td>
+<td>Do all of module 0A.</td>
+</tr>
+<tr>
+<td></td>
+<td>5–6</td>
+<td>Compress 0A to a 3-hour drill.</td>
+</tr>
+<tr>
+<td>B (5)</td>
+<td>≤ 3</td>
+<td>Do all of module 0B.</td>
+</tr>
+<tr>
+<td></td>
+<td>4–5</td>
+<td>Compress 0B to drills on your misses.</td>
+</tr>
+<tr>
+<td>C (5)</td>
+<td>≤ 3</td>
+<td>Do all of module 0C.</td>
+</tr>
+<tr>
+<td></td>
+<td>4–5</td>
+<td>Compress 0C to drills on your misses.</td>
+</tr>
+<tr>
+<td>D (4)</td>
+<td>≤ 2</td>
+<td>Do all of module 0D.</td>
+</tr>
+<tr>
+<td>E (6)</td>
+<td>≤ 3</td>
+<td>Do all of module 0F (mechanics warm-up).</td>
+</tr>
+<tr>
+<td>F (4)</td>
+<td>any</td>
+<td>Informational. If ≥ 3, take 18.01SC's Exam 1 cold as a pretest.</td>
+</tr>
+<tr>
+<td><strong>A–D total (20)</strong></td>
+<td><strong>≥ 18</strong></td>
+<td><strong>Fast track:</strong> shrink Stage 0 to ~40 hours (0E, 0F, checkpoint) and start Stage 1 in about week 5.</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p><strong>Readiness to leave Stage 0 (measurable):</strong> ≥ 85% on a closed-book 90-minute cumulative Stage-0 exam, <strong>and</strong> ≥ 90% on a retake of diagnostic Parts A–D.</p>
+<hr>
+<h1>4. Complete learning progression</h1>
+<h2>4.1 The sequence</h2>
+<p>Stage hours are <strong>my estimates</strong> (MIT unit counts × ~1.0–1.3 for self-study, because you have no TA or lecture structure). Ranges are in §11.</p>
+<div class="md-table" role="region" aria-label="Table" tabindex="0"><table>
+<thead>
+<tr>
+<th>Stage</th>
+<th>Subject</th>
+<th>Primary source</th>
+<th>Mid hrs</th>
+<th>Depends on</th>
+<th>Why it sits here</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>0</td>
+<td>Foundations bridge (precalculus, vectors, units) <strong>[My addition]</strong></td>
+<td>Khan Academy</td>
+<td>130</td>
+<td>—</td>
+<td>Calculus is unlearnable without algebra/trig/log fluency.</td>
+</tr>
+<tr>
+<td>1</td>
+<td>18.01 Single-Variable Calculus</td>
+<td>OCW 18.01SC</td>
+<td>165</td>
+<td>0</td>
+<td>Every later subject uses derivatives and integrals.</td>
+</tr>
+<tr>
+<td>2</td>
+<td>8.01 Classical Mechanics</td>
+<td>OCW 8.01SC</td>
+<td>185</td>
+<td>1</td>
+<td>First calculus-based physics; builds problem-solving habits.</td>
+</tr>
+<tr>
+<td>3</td>
+<td>18.02 Multivariable Calculus</td>
+<td>OCW 18.02SC</td>
+<td>165</td>
+<td>1</td>
+<td>Needed for 8.03, 8.033, 8.223 and for vector fields in 8.02.</td>
+</tr>
+<tr>
+<td>4</td>
+<td>8.02 Electricity &amp; Magnetism</td>
+<td>OCW 8.02</td>
+<td>185</td>
+<td>1, 2 (3 helps)</td>
+<td>Maxwell's equations underpin waves, optics, relativity, QM.</td>
+</tr>
+<tr>
+<td>5</td>
+<td>18.03 Differential Equations</td>
+<td>OCW 18.03SC</td>
+<td>165</td>
+<td>1, 3</td>
+<td>Precedes oscillations, waves and quantum time-evolution.</td>
+</tr>
+<tr>
+<td>6</td>
+<td>8.03 Vibrations &amp; Waves</td>
+<td>OCW 8.03SC</td>
+<td>185</td>
+<td>3, 4 (5 helps)</td>
+<td>Wave mechanics is the bridge to Schrödinger's equation.</td>
+</tr>
+<tr>
+<td>7</td>
+<td>18.06 Linear Algebra <strong>[My addition]</strong></td>
+<td>OCW 18.06SC</td>
+<td>150</td>
+<td>3</td>
+<td>8.05 is linear algebra applied to quantum states.</td>
+</tr>
+<tr>
+<td>8</td>
+<td>8.033 Relativity</td>
+<td>OCW 8.033</td>
+<td>170</td>
+<td>3, 4</td>
+<td>Uses 4-vectors/matrices; independent of QM.</td>
+</tr>
+<tr>
+<td>9</td>
+<td>8.04 Quantum Physics I</td>
+<td>OCW 8.04</td>
+<td>185</td>
+<td>5, 6</td>
+<td>First quantum course.</td>
+</tr>
+<tr>
+<td>10</td>
+<td>8.223 Classical Mechanics II</td>
+<td>OCW 8.223</td>
+<td>95</td>
+<td>2, 3</td>
+<td>Hamiltonian ideas prepare stat mech and 8.05.</td>
+</tr>
+<tr>
+<td>11</td>
+<td>8.044 Statistical Physics I</td>
+<td>OCW 8.044</td>
+<td>185</td>
+<td>5, 6 (9 recommended)</td>
+<td>Catalog recommends studying alongside 8.04; sequential here.</td>
+</tr>
+<tr>
+<td>12</td>
+<td>8.05 Quantum Physics II</td>
+<td>OCW 8.05</td>
+<td>190</td>
+<td>9, 7</td>
+<td>Formalism.</td>
+</tr>
+<tr>
+<td>13</td>
+<td>8.06 Quantum Physics III</td>
+<td>OCW 8.06</td>
+<td>190</td>
+<td>12</td>
+<td>Applications and term paper.</td>
+</tr>
+<tr>
+<td>14</td>
+<td>8.07 Electromagnetism II (elective)</td>
+<td>Catalog + text</td>
+<td>185</td>
+<td>5, 6</td>
+<td>Relativistic electrodynamics, radiation.</td>
+</tr>
+<tr>
+<td>15</td>
+<td>8.09 Classical Mechanics III (elective)</td>
+<td>Catalog + text</td>
+<td>185</td>
+<td>10</td>
+<td>Advanced mechanics, fluids, chaos.</td>
+</tr>
+<tr>
+<td>16</td>
+<td>Experimental track (8.13/8.14 substitute)</td>
+<td>OCW Junior Lab</td>
+<td>200</td>
+<td>9, 12</td>
+<td>Needs QM; builds lab/data skills.</td>
+</tr>
+<tr>
+<td>17</td>
+<td>Thesis capstone (8.THU substitute)</td>
+<td>Self-directed</td>
+<td>150</td>
+<td>all above</td>
+<td>Integrates everything.</td>
+</tr>
+</tbody>
+</table>
+</div>
+<h2>4.2 Concurrency and cognitive load</h2>
+<p>At 12 hrs/week the <strong>default is one primary subject (~10 hrs) + ~2 hrs of spaced review of earlier material.</strong> Running two 12-unit subjects at once splits the same hours and slows both, so I only allow light pairings:</p>
+<div class="md-table" role="region" aria-label="Table" tabindex="0"><table>
+<thead>
+<tr>
+<th>Allowed pairing (8 + 4 hrs)</th>
+<th>Why it works</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>18.02 (primary) with a light 8.01 review</td>
+<td>Vector skills reinforce each other.</td>
+</tr>
+<tr>
+<td>18.03 (primary) with early 8.03 reading</td>
+<td>MIT teaches these concurrently.</td>
+</tr>
+<tr>
+<td>18.06 (primary) with 8.033 reading</td>
+<td>Math plus lighter physics.</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p><strong>Avoid:</strong> 8.04 + 8.044, 8.05 + 8.06, 8.07 + 8.09 simultaneously. They are derivation-heavy and compete for the same working memory.</p>
+<p><strong>Every stage ends with a consolidation week</strong> (cumulative exam, remediation, retention retest of the previous stage) — see §7 and §9.</p>
+<hr>
+<h1>5. Course-by-course study roadmap</h1>
+<p><strong>How to read each card:</strong> <em>Needs</em> = prior knowledge. <em>Resources</em> = one primary plus at most two supplements (free unless marked <strong>paid</strong>). <em>Mastery</em> = measurable gate (full framework in §9). Hours are my estimates at your 12-hrs/week pace.</p>
+<blockquote>
+<p><strong>Note on versions:</strong> MIT OCW hosts older offerings (e.g., 8.02 from 2007, 8.033 from 2006, 8.04/8.05 from 2013–2016). The <strong>2026 catalog descriptions are your target syllabus</strong>; OCW is the delivery vehicle. Where OCW is missing something the catalog lists, I say so.</p>
+</blockquote>
+<p><strong>Standard weekly task pattern for every course</strong> (details in §7): 2 learn sessions → 2 problem sessions → 1 recall session → 1 closed-book quiz + error analysis + applied task → 1 weekly review.</p>
+<hr>
+<h2>Stage 0 — Foundations Bridge <strong>[My addition]</strong> · ~130 hrs · ~11 weeks</h2>
+<ul>
+<li><strong>Purpose:</strong> make calculus and mechanics learnable.</li>
+<li><strong>Needs:</strong> arithmetic, basic algebra.</li>
+<li><strong>Objectives:</strong> manipulate algebra fluently; work with functions, exponentials, logs, trig; use vectors and units; understand &quot;rate of change&quot; intuitively.</li>
+<li><strong>Topic order:</strong> <strong>0A Algebra</strong> (~20 h): linear equations, rearranging formulas, exponent laws, radicals, quadratics, systems, inequalities → <strong>0B Functions, exponentials, logs</strong> (~30 h): notation, domain/range, transformations, inverses, polynomial and rational behavior, exponential growth/decay, log laws → <strong>0C Trigonometry</strong> (~30 h): right triangles, unit circle, radians, graphs, identities, inverse trig, solving trig equations → <strong>0D Vectors and units</strong> (~15 h): components, dot product, unit conversion, dimensional analysis, scientific notation, significant figures → <strong>0E Rates and limits intuition</strong> (~15 h): slope, secant to tangent, average vs instantaneous rate, the limit idea → <strong>0F Mechanics warm-up</strong> (~10 h) → checkpoints (~10 h).</li>
+<li><strong>Resources:</strong> Primary: <strong>Khan Academy</strong> (free) — algebra → precalculus path (<a href="https://www.khanacademy.org">khanacademy.org</a>). Supplement: OpenStax <em>University Physics</em> Vol. 1, Ch. 1–3 (units, vectors, 1-D motion) (free, <a href="https://openstax.org/books/university-physics-volume-1/pages/preface">link</a>).</li>
+<li><strong>Practice:</strong> ≥ 25 problems per topic; flashcards for every error.</li>
+<li><strong>Project:</strong> spreadsheet model of exponential decay (week 3 of the plan).</li>
+<li><strong>Mastery:</strong> ≥ 85% on a closed-book 90-min cumulative exam; ≥ 90% on a retake of diagnostic A–D.</li>
+<li><strong>Pitfalls:</strong> algebra slips masquerading as concept errors (track them separately in your error log); skipping trig identities now and paying for it in 8.03.</li>
+</ul>
+<h2>Stage 1 — 18.01 Single-Variable Calculus · ~165 hrs · ~14 weeks</h2>
+<ul>
+<li><strong>Purpose:</strong> the language of change.</li>
+<li><strong>Needs:</strong> Stage 0.</li>
+<li><strong>Objectives:</strong> differentiate and integrate fluently; set up optimization and related-rates problems; use the Fundamental Theorem of Calculus.</li>
+<li><strong>Topic order (follow OCW's unit order):</strong> limits and derivatives → differentiation rules → applications (linearization, optimization, related rates) → integration and the Fundamental Theorem → integration techniques → applications of integration → infinite series (brief, per the course description).</li>
+<li><strong>Resources:</strong> Primary: <strong>OCW 18.01SC</strong> (free): lecture videos, recitation videos, notes, problem sets and exams with solutions (<a href="https://ocw.mit.edu/courses/18-01sc-single-variable-calculus-fall-2010/">link</a>). Supplement: Khan Academy AP Calculus AB (free).</li>
+<li><strong>Weekly tasks:</strong> watch one session set, do its worked examples, then the problem set <em>before</em> looking at solutions.</li>
+<li><strong>Assessments:</strong> weekly 10-question quizzes; OCW exams under timed, closed-book conditions.</li>
+<li><strong>Mastery:</strong> ≥ 85% on each OCW exam; 20 mixed derivatives/integrals in 30 min at ≥ 90%.</li>
+<li><strong>Pitfalls:</strong> treating rules as recipes (always ask &quot;what quantity is changing?&quot;); neglecting algebra clean-up on integrals.</li>
+</ul>
+<h2>Stage 2 — 8.01 Classical Mechanics · ~185 hrs · ~15 weeks</h2>
+<ul>
+<li><strong>Purpose:</strong> learn to model the physical world quantitatively.</li>
+<li><strong>Needs:</strong> derivatives and integrals (first ~60% of Stage 1), vectors.</li>
+<li><strong>Objectives:</strong> set up free-body diagrams; use energy, momentum and angular-momentum conservation; solve rotational and oscillatory problems.</li>
+<li><strong>Topic order (catalog + OCW):</strong> kinematics (1-D, 2-D) → Newton's laws and applications → work, energy, potential energy → momentum, collisions, center of mass → rotation, torque, angular momentum → oscillations → central forces and gravitation → fluids.</li>
+<li><strong>Resources:</strong> Primary: <strong>OCW 8.01SC</strong> (free; lectures, problem sets, open-textbook chapters) (<a href="https://ocw.mit.edu/courses/8-01sc-classical-mechanics-fall-2016/">link</a>). Supplement: OpenStax <em>University Physics</em> Vol. 1 (free).</li>
+<li><strong>Practice:</strong> 4–6 multi-step problems per week; always solve symbolically first, then plug in numbers.</li>
+<li><strong>Project:</strong> projectile motion with air drag in a spreadsheet (or Python if you pick it up).</li>
+<li><strong>Mastery:</strong> ≥ 85% on closed-book cumulative exams you build from OCW problem sets and OpenStax review problems (check the course page for any exams); derive the key results (energy conservation from Newton's second law, rotational analog) from a blank page.</li>
+<li><strong>Pitfalls:</strong> formula-hunting without a diagram; sign errors in vector components.</li>
+</ul>
+<h2>Stage 3 — 18.02 Multivariable Calculus · ~165 hrs · ~14 weeks</h2>
+<ul>
+<li><strong>Purpose:</strong> calculus in 2-D and 3-D, needed for fields.</li>
+<li><strong>Needs:</strong> 18.01.</li>
+<li><strong>Objectives:</strong> partial derivatives and optimization; multiple integrals; line/surface integrals and the major theorems of vector calculus.</li>
+<li><strong>Topic order (OCW course description: differential, integral and vector calculus):</strong> vectors and matrices → partial derivatives and optimization → multiple integrals → vector calculus (line integrals, flux, Green's, divergence and Stokes' theorems).</li>
+<li><strong>Resources:</strong> Primary: <strong>OCW 18.02SC</strong> (free) (<a href="https://ocw.mit.edu/courses/18-02sc-multivariable-calculus-fall-2010/">link</a>). OCW states MIT expects about 150 hours on this course.</li>
+<li><strong>Mastery:</strong> ≥ 85% on OCW exams; set up (not just evaluate) 10 integrals in different coordinate systems.</li>
+<li><strong>Pitfalls:</strong> visualizing regions of integration — sketch every one.</li>
+</ul>
+<h2>Stage 4 — 8.02 Electricity and Magnetism · ~185 hrs · ~15 weeks</h2>
+<ul>
+<li><strong>Purpose:</strong> the first complete field theory.</li>
+<li><strong>Needs:</strong> 18.01 and 8.01 (18.02 helps a lot).</li>
+<li><strong>Objectives:</strong> compute electric and magnetic fields and potentials; apply Faraday's and Ampère's laws; reach Maxwell's equations and EM waves.</li>
+<li><strong>Topic order (catalog):</strong> charge and Coulomb's law → electrostatic field and potential → conductors and dielectrics → electrostatic energy → currents and circuits → magnetic fields and Ampère's law → magnetic materials → Faraday induction → EM waves and Maxwell's equations.</li>
+<li><strong>Resources:</strong> Primary: <strong>OCW 8.02, Spring 2007</strong> (free; lecture notes, problem sets, online textbook) (<a href="https://ocw.mit.edu/courses/8-02-physics-ii-electricity-and-magnetism-spring-2007/">link</a>; course path confirmed via its resource pages). Supplements: Walter Lewin's 8.02 video lectures, Spring 2002 (free, <a href="https://videolectures.net/events/mit802s02_electricity_magnetism">link</a>); OpenStax <em>University Physics</em> Vol. 2 (free; same site as Vol. 1, link not individually verified).</li>
+<li><strong>Project:</strong> Faraday demo — drop a magnet through a coil and record the voltage spike with a multimeter or audio input.</li>
+<li><strong>Mastery:</strong> ≥ 85% on a cumulative closed-book exam; derive the field of a charged line and plate using Gauss's law unaided.</li>
+<li><strong>Pitfalls:</strong> mixing up line, surface and volume integrals; skipping the physical picture before the math.</li>
+</ul>
+<h2>Stage 5 — 18.03 Differential Equations · ~165 hrs · ~14 weeks</h2>
+<ul>
+<li><strong>Purpose:</strong> the tool for oscillators, circuits and quantum dynamics.</li>
+<li><strong>Needs:</strong> 18.01; 18.02 (OCW calls it a co-requisite).</li>
+<li><strong>Objectives:</strong> solve first- and second-order linear ODEs and 2×2 systems; use complex exponentials; interpret solutions physically.</li>
+<li><strong>Topic order (OCW):</strong> first-order equations and modeling → complex numbers and exponentials → second-order constant-coefficient equations (homogeneous, driven, resonance) → 2×2 systems and phase portraits. <em>Check the course's unit list for Fourier and Laplace-transform units and include them.</em></li>
+<li><strong>Resources:</strong> Primary: <strong>OCW 18.03SC</strong> (free; Mattuck lectures, notes, recitation videos, exams with solutions) (<a href="https://ocw.mit.edu/courses/18-03sc-differential-equations-fall-2011/">link</a>).</li>
+<li><strong>Mastery:</strong> ≥ 85% on OCW exams; solve a driven damped oscillator and explain resonance in words.</li>
+<li><strong>Pitfalls:</strong> memorizing solution forms without understanding where the exponentials come from.</li>
+</ul>
+<h2>Stage 6 — 8.03 Vibrations and Waves · ~185 hrs · ~15 weeks</h2>
+<ul>
+<li><strong>Purpose:</strong> waves, modes and interference.</li>
+<li><strong>Needs:</strong> 18.02, 8.02; 18.03 helps.</li>
+<li><strong>Objectives:</strong> analyze coupled oscillators and normal modes; derive the wave equation; analyze interference and diffraction.</li>
+<li><strong>Topic order (catalog):</strong> simple harmonic motion → forced vibrations and resonance → coupled oscillators and normal modes → continuous systems → wave reflection/refraction, phase and group velocity → EM waves and polarization → interference, Huygens, Fraunhofer diffraction, gratings.</li>
+<li><strong>Resources:</strong> Primary: <strong>OCW 8.03SC</strong> (free; lecture videos, notes, problem sets, exams) (<a href="https://ocw.mit.edu/courses/8-03sc-physics-iii-vibrations-and-waves-fall-2016/">link</a>). Supplement: OpenStax Vol. 1, Ch. 15–17 (oscillations, waves, sound).</li>
+<li><strong>Project:</strong> measure the damped oscillation of a spring/phone-accelerometer system and fit it to a damped-oscillator model from 18.03.</li>
+<li><strong>Mastery:</strong> ≥ 85% on OCW exams; find normal modes of a 2- and 3-mass system from scratch.</li>
+<li><strong>Pitfalls:</strong> complex-number bookkeeping and Fourier ideas arrive quickly — slow down on those sessions.</li>
+</ul>
+<h2>Stage 7 — 18.06 Linear Algebra <strong>[My addition]</strong> · ~150 hrs · ~13 weeks</h2>
+<ul>
+<li><strong>Purpose:</strong> the math language of quantum mechanics.</li>
+<li><strong>Needs:</strong> algebra and 18.02 comfort (OCW says calculus knowledge isn't required to learn it).</li>
+<li><strong>Objectives:</strong> solve linear systems, understand the four subspaces, compute eigenvalues/eigenvectors, orthogonality and projections.</li>
+<li><strong>Topic order (OCW):</strong> Ax = b and the four subspaces → orthogonality and least squares → determinants → eigenvalues and eigenvectors → similar matrices and Jordan form → <em>check the unit list for symmetric matrices and SVD</em>.</li>
+<li><strong>Resources:</strong> Primary: <strong>OCW 18.06SC</strong> (free; Strang lectures, problem-solving videos, exams with solutions) (<a href="https://ocw.mit.edu/courses/18-06sc-linear-algebra-fall-2011/">link</a>). Supplement (<strong>paid</strong>): Strang, <em>Introduction to Linear Algebra</em> (the course follows it).</li>
+<li><strong>Mastery:</strong> ≥ 85% on OCW exams; diagonalize a 3×3 symmetric matrix by hand and explain each step geometrically.</li>
+<li><strong>Pitfalls:</strong> treating matrices as grids of numbers instead of linear maps.</li>
+</ul>
+<h2>Stage 8 — 8.033 Relativity · ~170 hrs · ~14 weeks</h2>
+<ul>
+<li><strong>Purpose:</strong> the modern view of space, time and energy.</li>
+<li><strong>Needs:</strong> 18.02, 8.02.</li>
+<li><strong>Objectives:</strong> use Lorentz transformations and four-vectors; analyze relativistic collisions; handle paradoxes; understand the basics of general relativity.</li>
+<li><strong>Topic order (OCW syllabus):</strong> symmetry and invariance, Einstein's postulates → Lorentz transformation, Minkowski diagrams → time dilation, length contraction, spacetime intervals → four-vectors, momentum, energy, mass → relativistic collisions → relativity and electromagnetism → equivalence principle → cosmology and black holes (Schwarzschild metric, gravitational redshift).</li>
+<li><strong>Resources:</strong> Primary: <strong>OCW 8.033, Fall 2006</strong> (free; lecture notes, problem sets, exams) (<a href="https://ocw.mit.edu/courses/8-033-relativity-fall-2006/">link</a>).</li>
+<li><strong>Mastery:</strong> ≥ 85% on OCW exams; solve three paradox problems (twin, pole-and-barn, Terrell-type) with spacetime diagrams.</li>
+<li><strong>Pitfalls:</strong> mixing frames mid-calculation — label every frame.</li>
+</ul>
+<h2>Stage 9 — 8.04 Quantum Physics I · ~185 hrs · ~15 weeks</h2>
+<ul>
+<li><strong>Purpose:</strong> first real quantum mechanics.</li>
+<li><strong>Needs:</strong> 8.03, 18.03; 18.06 helps.</li>
+<li><strong>Objectives:</strong> explain the experimental basis; solve Schrödinger's equation in 1-D potentials; understand the hydrogen atom and the uncertainty principle.</li>
+<li><strong>Topic order (catalog):</strong> photoelectric effect, Compton scattering, de Broglie waves → wave-packets and Fourier representation → Schrödinger's equation and probability amplitudes → stationary states → 1-D problems (barriers, wells, delta functions, harmonic oscillator) → 3-D central potentials and hydrogen → intro to spin-½.</li>
+<li><strong>Resources:</strong> Primary: <strong>OCW 8.04, Spring 2016</strong> (Zwiebach; lectures, notes, problem sets, exam) (<a href="https://ocw.mit.edu/courses/8-04-quantum-physics-i-spring-2016/">link</a>). Supplement (<strong>paid</strong>): Zwiebach, <em>Mastering Quantum Mechanics</em> (MIT Press, 2022) — OCW states these lectures form its basis.</li>
+<li><strong>Project:</strong> numerically solve the 1-D time-independent Schrödinger equation for a finite well (spreadsheet or Python).</li>
+<li><strong>Mastery:</strong> ≥ 85% on a closed-book exam built from the OCW problem sets and final; derive barrier tunneling probability and the harmonic-oscillator ground state from scratch.</li>
+<li><strong>Pitfalls:</strong> &quot;what is the wavefunction?&quot; confusion — keep a one-page glossary of measurement postulates.</li>
+</ul>
+<h2>Stage 10 — 8.223 Classical Mechanics II · ~95 hrs · ~8 weeks</h2>
+<ul>
+<li><strong>Purpose:</strong> Lagrangian/Hamiltonian formalism.</li>
+<li><strong>Needs:</strong> 8.01, 18.02.</li>
+<li><strong>Objectives:</strong> set up Lagrangians for constrained systems; use conservation laws; move to Hamiltonian mechanics.</li>
+<li><strong>Topic order (OCW outline):</strong> Lagrangian mechanics (lectures 1–4) → conserved quantities → orbits and scattering → oscillations → Hamiltonian mechanics (lectures 15–19).</li>
+<li><strong>Resources:</strong> Primary: <strong>OCW 8.223, IAP 2017</strong> (free; lecture notes, problem sets and solutions, projects) (<a href="https://ocw.mit.edu/courses/8-223-classical-mechanics-ii-january-iap-2017/">link</a>). Required text (<strong>paid</strong>): Landau &amp; Lifshitz, <em>Mechanics</em> (3rd ed.); suggested (<strong>paid</strong>): Thornton &amp; Marion; Goldstein.</li>
+<li><strong>Project:</strong> the course asks students to build a small trebuchet and demonstrate it — a nice hands-on option.</li>
+<li><strong>Mastery:</strong> ≥ 85% on a problem-set-based cumulative exam; derive Euler–Lagrange equations from a variational statement.</li>
+<li><strong>Pitfalls:</strong> the course is compressed (IAP pacing) — stretch it to ~8 weeks and don't skip Hamiltonian lectures.</li>
+</ul>
+<h2>Stage 11 — 8.044 Statistical Physics I · ~185 hrs · ~15 weeks</h2>
+<ul>
+<li><strong>Purpose:</strong> entropy, temperature and ensembles.</li>
+<li><strong>Needs:</strong> 8.03, 18.03 (OCW lists both); 18.02 partial derivatives.</li>
+<li><strong>Objectives:</strong> apply probability and ensembles to physical systems; use the three laws of thermodynamics; connect microscopic and macroscopic descriptions.</li>
+<li><strong>Topic order (catalog):</strong> probability and random variables → thermodynamic equilibrium and macroscopic variables → microcanonical ensemble → canonical ensemble → laws of thermodynamics → applications (magnetism, polyatomic gases, thermal radiation, electrons in solids, noise).</li>
+<li><strong>Resources:</strong> Primary: <strong>OCW 8.044, Spring 2013</strong> (Greytak; notes, problem sets, exams with solutions) (<a href="https://ocw.mit.edu/courses/8-044-statistical-physics-i-spring-2013/">link</a>). The syllabus lists recommended texts (see its reading list). Supplement (<strong>paid</strong>, <strong>[my suggestion]</strong>): Schroeder, <em>An Introduction to Thermal Physics</em>.</li>
+<li><strong>Mastery:</strong> ≥ 85% on OCW exams; derive the Boltzmann factor and the ideal-gas equation of state from the canonical ensemble.</li>
+<li><strong>Pitfalls:</strong> partial-derivative bookkeeping in thermodynamics — practice Maxwell relations explicitly.</li>
+</ul>
+<h2>Stage 12 — 8.05 Quantum Physics II · ~190 hrs · ~16 weeks</h2>
+<ul>
+<li><strong>Purpose:</strong> the formal structure of quantum mechanics.</li>
+<li><strong>Needs:</strong> 8.04, 18.06.</li>
+<li><strong>Objectives:</strong> work fluently in Dirac notation; analyze spin systems and angular momentum; understand entanglement and decoherence at an introductory level.</li>
+<li><strong>Topic order (catalog):</strong> vector spaces and operators → inner products, adjoints → commutators → Dirac bra-kets → uncertainty principle → spectral theorem and commuting observables → Schrödinger and Heisenberg pictures → axioms → coherent states and NMR → multiparticle states → teleportation, EPR, Bell → angular momentum and addition → density matrices.</li>
+<li><strong>Resources:</strong> Primary: <strong>OCW 8.05, Fall 2013</strong> (Zwiebach; lectures, notes, assignments, exams) (<a href="https://ocw.mit.edu/courses/8-05-quantum-physics-ii-fall-2013/">link</a>). Supplement (<strong>paid</strong>): Zwiebach, <em>Mastering Quantum Mechanics</em>.</li>
+<li><strong>Mastery:</strong> ≥ 85% on closed-book exams; prove the generalized uncertainty principle and compute spin-½ rotations on a blank page.</li>
+<li><strong>Pitfalls:</strong> abstraction overload — always map operators back to matrices for a concrete test case.</li>
+</ul>
+<h2>Stage 13 — 8.06 Quantum Physics III · ~190 hrs · ~16 weeks</h2>
+<ul>
+<li><strong>Purpose:</strong> quantum mechanics as a working tool.</li>
+<li><strong>Needs:</strong> 8.05 (OCW requires a C or better in it).</li>
+<li><strong>Objectives:</strong> use perturbation theory and variational methods; understand fine structure, Zeeman/Stark effects, scattering; write a short research-style paper.</li>
+<li><strong>Topic order (catalog):</strong> natural units and scales → time-independent perturbation theory (degenerate and non-degenerate), variational method → one- and two-electron atoms, fine structure → Zeeman and Stark effects → Landau levels and the integer quantum Hall effect → scattering and partial waves → time-dependent perturbation theory → term paper.</li>
+<li><strong>Resources:</strong> Primary: <strong>OCW 8.06, Spring 2018</strong> (lecture notes, videos, problem sets, term-paper materials; <strong>exams are not available to OCW users</strong>, per the syllabus) (<a href="https://ocw.mit.edu/courses/8-06-quantum-physics-iii-spring-2018/">link</a>). The syllabus lists reference texts including Griffiths' <em>Introduction to Quantum Mechanics</em> (<strong>paid</strong>).</li>
+<li><strong>Assessment substitute:</strong> build your own closed-book exams from problem sets 1–9 (rotate which sets you exclude).</li>
+<li><strong>Project:</strong> the course's term-paper assignment — write a short journal-style paper on a quantum system outside the regular coursework.</li>
+<li><strong>Mastery:</strong> ≥ 85% on your self-built exams; term paper reviewed by an outside reader.</li>
+<li><strong>Pitfalls:</strong> perturbation-theory algebra is long — organize with a notation sheet.</li>
+</ul>
+<h2>Stage 14 — 8.07 Electromagnetism II (elective) · ~185 hrs · ~15 weeks</h2>
+<ul>
+<li><strong>Purpose:</strong> advanced electrodynamics.</li>
+<li><strong>Needs:</strong> 8.03, 18.03 (catalog).</li>
+<li><strong>Topics (catalog):</strong> electrostatics and magnetostatics → EM properties of matter → time-dependent fields and Maxwell's equations → EM waves, emission, absorption, scattering → relativistic electrodynamics and mechanics.</li>
+<li><strong>Resources:</strong> Catalog description as syllabus. <em>I did not verify an OCW offering for 8.07 — search OCW before relying on one.</em> Supplement (<strong>paid</strong>, <strong>[my suggestion]</strong>): Griffiths, <em>Introduction to Electrodynamics</em>.</li>
+<li><strong>Mastery:</strong> ≥ 85% on problem sets done without solutions; derive the retarded potentials and Larmor radiation from scratch.</li>
+<li><strong>Pitfalls:</strong> vector-calculus identities — keep a cheat sheet and drill it.</li>
+</ul>
+<h2>Stage 15 — 8.09 Classical Mechanics III (elective) · ~185 hrs · ~15 weeks</h2>
+<ul>
+<li><strong>Purpose:</strong> advanced mechanics and nonlinear dynamics.</li>
+<li><strong>Needs:</strong> 8.223 (catalog).</li>
+<li><strong>Topics (catalog):</strong> Lagrangian/Hamiltonian mechanics with constraints → rigid body dynamics → vibrations → central forces → Hamilton–Jacobi and action-angle variables → perturbation theory → continuous systems → ideal and viscous fluids, turbulence → nonlinear dynamics and chaos.</li>
+<li><strong>Resources:</strong> Catalog description as syllabus. <em>I did not verify an OCW offering for 8.09.</em> Use the Landau–Lifshitz and Goldstein texts from the 8.223 syllabus (<strong>paid</strong>).</li>
+<li><strong>Mastery:</strong> ≥ 85% on problem sets done without solutions; simulate a chaotic pendulum and explain Lyapunov behavior qualitatively.</li>
+</ul>
+<h2>Stage 16 — Experimental track (partial substitute for 8.13/8.14) <strong>[My addition]</strong> · ~200 hrs (150–300) · ~17 weeks</h2>
+<ul>
+<li><strong>Purpose:</strong> experimental technique and scientific writing.</li>
+<li><strong>Needs:</strong> 8.04 and 8.05 (matches the catalog prerequisites for 8.13 and 8.14).</li>
+<li><strong>Objectives:</strong> design a measurement; quantify uncertainty; fit and test models; write a short paper and give a short talk.</li>
+<li><strong>What I recommend (low-cost, safe):</strong> error analysis and curve-fitting practice; damped oscillator with phone sensors; interference and diffraction with a laser pointer (Class 2 only) and a diffraction grating; spectroscopy of lamps with a grating; analysis of <strong>public datasets</strong> (the catalog's 8.16 mentions LIGO open data as a module example). Read the OCW Junior Lab guides to see how professional labs are structured.</li>
+<li><strong>Resources:</strong> Primary: <strong>OCW 8.13–14 &quot;Junior Lab&quot;</strong> (syllabus, experiment guides, schedule summaries) (<a href="https://ocw.mit.edu/courses/8-13-14-experimental-physics-i-ii-junior-lab-fall-2016-spring-2017/">link</a>). Note that OCW says some on-campus instructions don't apply to OCW users.</li>
+<li><strong>Safety:</strong> do not attempt experiments involving radioactive sources, Class 3b/4 lasers, high voltage or biological materials without proper supervision — the OCW syllabus itself requires formal training for them.</li>
+<li><strong>Deliverables:</strong> 4–6 lab reports in <em>Physical Review Letters</em> style, one 10-minute recorded talk.</li>
+<li><strong>Mastery:</strong> each report passes a rubric (clear hypothesis, uncertainty analysis, reproducible methods, honest discussion of limitations); one outside reader's feedback incorporated.</li>
+<li><strong>This is a partial substitute:</strong> it builds skills, not the hands-on access MIT's lab provides.</li>
+</ul>
+<h2>Stage 17 — Thesis capstone (substitute for 8.THU) · ~150 hrs (120–200) · ~13 weeks</h2>
+<ul>
+<li><strong>Purpose:</strong> carry a question from idea to written result.</li>
+<li><strong>Needs:</strong> everything above.</li>
+<li><strong>Deliverable:</strong> an 8–15 page paper replicating or extending a published result (computational, theoretical, or analysis of public data), with figures, uncertainty analysis, and references.</li>
+<li><strong>Process:</strong> proposal (week 1) → literature scan (weeks 1–3) → work (weeks 4–10) → draft (week 11) → outside review (week 12) → revision (week 13).</li>
+<li><strong>Mastery:</strong> an outside reader with physics background confirms the logic and methods; you can defend every equation in a 20-minute recorded talk.</li>
+<li><strong>Honest limit:</strong> this is not supervised research and does not replace 8.THU's institutional role.</li>
+</ul>
+<hr>
+<h1>6. Detailed plan for the first four weeks (Stage 0)</h1>
+<p>Assumes the diagnostic shows you need most of modules 0A and 0B. If your A–D total is ≥ 18/20, use the fast track in §3.2 instead.</p>
+<p>Every session ends with 5 minutes: write one sentence of &quot;what I got stuck on&quot; into your error log.</p>
+<h2>Week 1 — Diagnostic and algebra foundations (12 h)</h2>
+<div class="md-table" role="region" aria-label="Table" tabindex="0"><table>
+<thead>
+<tr>
+<th>Day</th>
+<th>Hrs</th>
+<th>Task</th>
+<th>Output</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Mon</td>
+<td>2.0</td>
+<td><strong>Diagnostic</strong> (90 min, closed-book) + score it against the key (30 min).</td>
+<td>Score sheet.</td>
+</tr>
+<tr>
+<td>Tue</td>
+<td>2.0</td>
+<td>Build the tracker (§10, 45 min). Classify every diagnostic miss as <em>concept / algebra slip / careless</em> (30 min). <strong>0A.1</strong> Linear equations and rearranging formulas: lesson + notes (45 min).</td>
+<td>Tracker; error log; notes.</td>
+</tr>
+<tr>
+<td>Wed</td>
+<td>1.5</td>
+<td><strong>0A.1</strong> practice: 25 problems, including 5 formula rearrangements (solve each kinematic equation for every variable).</td>
+<td>≥ 25 problems done.</td>
+</tr>
+<tr>
+<td>Thu</td>
+<td>2.0</td>
+<td><strong>0A.2</strong> Exponent laws and radicals: lesson (45 min) + 30 problems (75 min).</td>
+<td>≥ 30 problems.</td>
+</tr>
+<tr>
+<td>Fri</td>
+<td>1.0</td>
+<td>Recall: write all rules from 0A.1–0A.2 from a blank page. Make the first 20 flashcards from your errors.</td>
+<td>20 flashcards.</td>
+</tr>
+<tr>
+<td>Sat</td>
+<td>2.5</td>
+<td><strong>0A.3</strong> Quadratics (factoring, formula, completing the square): lesson (1 h), 20 problems (1 h), closed-book mini-quiz on 0A.1–0A.3 (30 min, 10 questions).</td>
+<td>Quiz score.</td>
+</tr>
+<tr>
+<td>Sun</td>
+<td>1.0</td>
+<td>Weekly review: score the quiz, update the tracker, plan week 2.</td>
+<td>Updated tracker.</td>
+</tr>
+</tbody>
+</table>
+</div>
+<h2>Week 2 — Algebra checkpoint, then functions (12 h)</h2>
+<div class="md-table" role="region" aria-label="Table" tabindex="0"><table>
+<thead>
+<tr>
+<th>Day</th>
+<th>Hrs</th>
+<th>Task</th>
+<th>Output</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Mon</td>
+<td>2.0</td>
+<td><strong>0A.4</strong> Systems of equations and inequalities: lesson (45 min) + 30 problems (75 min).</td>
+<td>≥ 30 problems.</td>
+</tr>
+<tr>
+<td>Tue</td>
+<td>2.0</td>
+<td><strong>0A checkpoint:</strong> closed-book 40-min test (30 problems), review errors (40 min), redo missed problems on fresh variants (40 min). <strong>Gate: ≥ 85%.</strong></td>
+<td>Score.</td>
+</tr>
+<tr>
+<td>Wed</td>
+<td>1.5</td>
+<td>If gate passed: <strong>0B.1</strong> Functions — notation, domain/range, graphs (45 min lesson + 45 min problems). If not: targeted drills on missed topics.</td>
+<td>≥ 20 problems.</td>
+</tr>
+<tr>
+<td>Thu</td>
+<td>2.0</td>
+<td><strong>0B.2</strong> Transformations and inverse functions: lesson (1 h) + problems (1 h).</td>
+<td>≥ 25 problems.</td>
+</tr>
+<tr>
+<td>Fri</td>
+<td>1.0</td>
+<td>Spaced recall: flashcards from week 1 (20 min); blank-page recall of function notation and transformations (20 min); add new cards (20 min).</td>
+<td>Flashcard set.</td>
+</tr>
+<tr>
+<td>Sat</td>
+<td>2.5</td>
+<td><strong>0B.3</strong> Composition, piecewise functions, polynomial and rational end-behavior: lesson (1 h), problems (1 h), quiz (30 min).</td>
+<td>Quiz score.</td>
+</tr>
+<tr>
+<td>Sun</td>
+<td>1.0</td>
+<td>Weekly review and planning.</td>
+<td>Updated tracker.</td>
+</tr>
+</tbody>
+</table>
+</div>
+<h2>Week 3 — Exponentials and logarithms (12 h)</h2>
+<div class="md-table" role="region" aria-label="Table" tabindex="0"><table>
+<thead>
+<tr>
+<th>Day</th>
+<th>Hrs</th>
+<th>Task</th>
+<th>Output</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Mon</td>
+<td>2.0</td>
+<td><strong>0B.4</strong> Exponential functions and growth/decay: lesson (1 h), problems (30 min), half-life problem set (30 min).</td>
+<td>≥ 20 problems.</td>
+</tr>
+<tr>
+<td>Tue</td>
+<td>2.0</td>
+<td><strong>0B.5</strong> Logarithms — definition and laws: lesson (1 h) + 30 problems (1 h).</td>
+<td>≥ 30 problems.</td>
+</tr>
+<tr>
+<td>Wed</td>
+<td>1.5</td>
+<td><strong>0B.6</strong> Solving exponential and logarithmic equations: 25 problems.</td>
+<td>≥ 25 problems.</td>
+</tr>
+<tr>
+<td>Thu</td>
+<td>2.0</td>
+<td><strong>Interleaved problem session:</strong> ≥ 30 mixed problems across 0B.1–0B.6 (use a unit test from your Khan course where available).</td>
+<td>Score + error tags.</td>
+</tr>
+<tr>
+<td>Fri</td>
+<td>1.0</td>
+<td>Recall: blank-page derivations of log laws from exponent laws; flashcards.</td>
+<td>Derivations.</td>
+</tr>
+<tr>
+<td>Sat</td>
+<td>2.5</td>
+<td><strong>Project — decay model:</strong> in a spreadsheet, generate decay data (e.g., N = N₀(½)^(t/T)), add noise, fit an exponential, extract the half-life (1 h). Closed-book quiz on 0B.4–0B.6 (1 h). Error analysis (30 min).</td>
+<td>Spreadsheet; quiz score.</td>
+</tr>
+<tr>
+<td>Sun</td>
+<td>1.0</td>
+<td>Weekly review.</td>
+<td>Updated tracker.</td>
+</tr>
+</tbody>
+</table>
+</div>
+<h2>Week 4 — Checkpoint 1 and first four-week review (12 h)</h2>
+<div class="md-table" role="region" aria-label="Table" tabindex="0"><table>
+<thead>
+<tr>
+<th>Day</th>
+<th>Hrs</th>
+<th>Task</th>
+<th>Output</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Mon</td>
+<td>2.0</td>
+<td><strong>0B.7</strong> Polynomial and rational functions, graph sketching: lesson (1 h) + problems (1 h).</td>
+<td>≥ 20 problems.</td>
+</tr>
+<tr>
+<td>Tue</td>
+<td>2.0</td>
+<td><strong>Checkpoint 1:</strong> closed-book cumulative exam, 90 min, 35 problems covering 0A + 0B; score it (30 min). <strong>Gate: ≥ 85%.</strong></td>
+<td>Exam score.</td>
+</tr>
+<tr>
+<td>Wed</td>
+<td>1.5</td>
+<td>If &lt; 85%: targeted remediation using §9.6. If ≥ 85%: <strong>0C.1</strong> right-triangle trig, special angles, radians (lesson + problems).</td>
+<td>Remediation log or ≥ 15 problems.</td>
+</tr>
+<tr>
+<td>Thu</td>
+<td>2.0</td>
+<td><strong>0C.1/0C.2</strong> continue: unit circle and radians — lesson (1 h) + problems (1 h).</td>
+<td>≥ 25 problems.</td>
+</tr>
+<tr>
+<td>Fri</td>
+<td>1.0</td>
+<td>Spaced review: flashcards from weeks 1–3; redo 10 diagnostic questions you originally missed.</td>
+<td>Cards reviewed.</td>
+</tr>
+<tr>
+<td>Sat</td>
+<td>2.5</td>
+<td><strong>Four-week review block:</strong> retake diagnostic Parts A and B (45 min); complete the four-week review template (§12.3, 45 min); first trig drills (1 h).</td>
+<td>Review written.</td>
+</tr>
+<tr>
+<td>Sun</td>
+<td>1.0</td>
+<td>Weekly review; plan weeks 5–8.</td>
+<td>Updated plan.</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p><strong>Where you should be at the end of week 4:</strong> modules 0A and 0B complete (gate ≥ 85% each), trig started, ~40–45 flashcards in rotation, tracker current, one four-week review written.</p>
+<h2>Weeks 5–11 preview (Stage 0 remainder)</h2>
+<div class="md-table" role="region" aria-label="Table" tabindex="0"><table>
+<thead>
+<tr>
+<th>Weeks</th>
+<th>Focus</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>5–7</td>
+<td>0C Trigonometry (unit circle, graphs, identities, inverse trig, solving equations).</td>
+</tr>
+<tr>
+<td>8</td>
+<td>0D Vectors, unit conversion, dimensional analysis.</td>
+</tr>
+<tr>
+<td>9</td>
+<td>0E Slopes, secant-to-tangent, limit intuition.</td>
+</tr>
+<tr>
+<td>10</td>
+<td>0F Mechanics warm-up (OpenStax Vol. 1, Ch. 1–3).</td>
+</tr>
+<tr>
+<td>11</td>
+<td>Stage-0 cumulative exam (≥ 85%) and diagnostic retake (≥ 90%).</td>
+</tr>
+<tr>
+<td>12</td>
+<td>Consolidation week; then begin Stage 1 (18.01SC).</td>
+</tr>
+</tbody>
+</table>
+</div>
+<hr>
+<h1>7. Weekly 12-hour timetable</h1>
+<h2>7.1 Sample timetable (physics-theory weeks)</h2>
+<div class="md-table" role="region" aria-label="Table" tabindex="0"><table>
+<thead>
+<tr>
+<th>Day</th>
+<th>Hrs</th>
+<th>Activity</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Mon</td>
+<td>2.0</td>
+<td><strong>Learn:</strong> lecture/reading, with notes (new concepts).</td>
+</tr>
+<tr>
+<td>Tue</td>
+<td>2.0</td>
+<td><strong>Learn:</strong> continue; worked examples; concept map/notes.</td>
+</tr>
+<tr>
+<td>Wed</td>
+<td>1.5</td>
+<td><strong>Problems:</strong> set A (moderate).</td>
+</tr>
+<tr>
+<td>Thu</td>
+<td>2.0</td>
+<td><strong>Problems:</strong> set B (hardest problems).</td>
+</tr>
+<tr>
+<td>Fri</td>
+<td>1.0</td>
+<td><strong>Active recall + spaced repetition.</strong></td>
+</tr>
+<tr>
+<td>Sat</td>
+<td>2.5</td>
+<td><strong>Closed-book quiz</strong> (1 h) · <strong>error analysis</strong> (0.5 h) · <strong>applied task/project</strong> (1 h).</td>
+</tr>
+<tr>
+<td>Sun</td>
+<td>1.0</td>
+<td><strong>Weekly review, tracker update, plan.</strong></td>
+</tr>
+<tr>
+<td><strong>Total</strong></td>
+<td><strong>12.0</strong></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+</div>
+<h2>7.2 How hours shift by subject type</h2>
+<div class="md-table" role="region" aria-label="Table" tabindex="0"><table>
+<thead>
+<tr>
+<th>Activity</th>
+<th>Math-heavy (18.0x)</th>
+<th>Physics theory</th>
+<th>Lab/experimental track</th>
+<th>Consolidation week</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Learn new material</td>
+<td>3.5</td>
+<td>3.5</td>
+<td>2.0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>Notes / concept maps</td>
+<td>0.5</td>
+<td>0.5</td>
+<td>0.5</td>
+<td>1.0</td>
+</tr>
+<tr>
+<td>Problem solving</td>
+<td>5.0</td>
+<td>3.5</td>
+<td>1.0</td>
+<td>2.0</td>
+</tr>
+<tr>
+<td>Active recall / spaced repetition</td>
+<td>1.0</td>
+<td>1.0</td>
+<td>0.5</td>
+<td>3.0</td>
+</tr>
+<tr>
+<td>Quizzes / exams</td>
+<td>1.0</td>
+<td>1.0</td>
+<td>0</td>
+<td>3.0</td>
+</tr>
+<tr>
+<td>Error analysis / gap fixing</td>
+<td>0.5</td>
+<td>0.5</td>
+<td>0.5</td>
+<td>2.0</td>
+</tr>
+<tr>
+<td>Project / applied / experiment</td>
+<td>0</td>
+<td>1.0</td>
+<td>6.5</td>
+<td>0</td>
+</tr>
+<tr>
+<td>Weekly review and planning</td>
+<td>0.5</td>
+<td>1.0</td>
+<td>1.0</td>
+<td>1.0</td>
+</tr>
+<tr>
+<td><strong>Total</strong></td>
+<td><strong>12.0</strong></td>
+<td><strong>12.0</strong></td>
+<td><strong>12.0</strong></td>
+<td><strong>12.0</strong></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p><em>In math-heavy weeks, turn the Saturday project hour into problem-solving.</em></p>
+<h2>7.3 Routine for every session type</h2>
+<p><strong>Learn session (2 h).</strong> (1) 5-min preview: scan headings and write 3 questions. (2) Watch or read in 10–15 min chunks, <strong>pausing to predict</strong> the next step. (3) After each chunk, close the source and write the key idea in your own words. (4) Last 15 min: write a one-paragraph summary and add terms to your glossary.</p>
+<p><strong>Problem session (1.5–2 h).</strong> (1) Attempt each problem for 10–15 min <strong>before</strong> looking at any hint or solution. (2) If stuck, write what you tried, then check a hint (not the solution). (3) After solving, rewrite the solution in clean steps. (4) Log every error with a tag: <em>concept / setup / algebra / calculus / careless</em>.</p>
+<p><strong>Recall session (1 h).</strong> Blank-page retrieval of key definitions and derivations, then flashcards (spaced intervals: day 1, 3, 7, 14, 30, 60, 120 after first review). Anything you can't recall gets a new card.</p>
+<p><strong>Quiz block (Saturday).</strong> Closed book, timed, 8–10 questions covering the week plus 2–3 questions from earlier weeks (interleaving). Score immediately, then do error analysis.</p>
+<p><strong>Weekly review (Sunday, 1 h).</strong> Score the quiz, update the tracker (actual hours, status, gaps), write three lines: <em>what went well, what slowed me down, what changes next week.</em></p>
+<h2>7.4 Progress tracking each week</h2>
+<p>Record: planned vs actual hours, problems completed, quiz score, number of new errors by tag, mastery status (§10), and one energy rating (1–5).</p>
+<h2>7.5 Handling a difficult topic without falling behind</h2>
+<ol>
+<li><strong>Two-pass rule:</strong> after two full attempts (learn + problems), move on if the weekly plan allows; flag the topic &quot;Needs Review.&quot;</li>
+<li><strong>Trace the error.</strong> Is it concept, math tool, or prerequisite? Fix the tool first (e.g., a trig identity), then the concept.</li>
+<li><strong>Switch format:</strong> a different explanation (OpenStax text instead of the lecture; a worked example instead of a derivation).</li>
+<li><strong>Cap the overrun:</strong> if a topic uses 1.5× its planned hours, stop, do a 30-minute triage (§12.1), and either shorten the scope or schedule the topic into the consolidation week.</li>
+<li><strong>Never let two consecutive weeks end with the same unresolved gap.</strong></li>
+</ol>
+<h2>7.6 Revision, assessment and catch-up weeks</h2>
+<ul>
+<li><strong>Every stage ends with a consolidation week</strong> (see the 12-hour distribution above): cumulative exam, remediation, and a retention retest of the previous stage.</li>
+<li><strong>Monthly review (week 4, 8, 12…):</strong> swap one Saturday project hour for the four-week review (§12.3).</li>
+<li><strong>Catch-up buffer:</strong> my timeline includes 23 extra weeks beyond the ~255 content weeks; if you fall behind, use those buffer weeks before extending the calendar.</li>
+<li><strong>Planned rest:</strong> one lighter week (6 hours, review only) every ~12 weeks is built into those buffer weeks.</li>
+</ul>
+<hr>
+<h1>8. Learning resources with verification status</h1>
+<p>&quot;Verified&quot; means I found the page or its resource pages in a search/fetch during this session on Oct 12, 2026. &quot;Not verified&quot; means I did not confirm the link; check before depending on it.</p>
+<div class="md-table" role="region" aria-label="Table" tabindex="0"><table>
+<thead>
+<tr>
+<th>Resource</th>
+<th>Used for</th>
+<th>Cost</th>
+<th>Link</th>
+<th>Status</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>MIT Bulletin: Physics degree chart</td>
+<td>Official requirements</td>
+<td>Free</td>
+<td><a href="https://catalog.mit.edu/degree-charts/physics-course-8/">catalog.mit.edu/degree-charts/physics-course-8</a></td>
+<td>Verified (fetched)</td>
+</tr>
+<tr>
+<td>MIT Bulletin: Physics subjects</td>
+<td>Official descriptions/prereqs</td>
+<td>Free</td>
+<td><a href="https://catalog.mit.edu/subjects/8/">catalog.mit.edu/subjects/8</a></td>
+<td>Verified (fetched)</td>
+</tr>
+<tr>
+<td>OCW 18.01SC Single Variable Calculus</td>
+<td>Stage 1</td>
+<td>Free</td>
+<td><a href="https://ocw.mit.edu/courses/18-01sc-single-variable-calculus-fall-2010/">link</a></td>
+<td>Verified</td>
+</tr>
+<tr>
+<td>OCW 8.01SC Classical Mechanics</td>
+<td>Stage 2</td>
+<td>Free</td>
+<td><a href="https://ocw.mit.edu/courses/8-01sc-classical-mechanics-fall-2016/">link</a></td>
+<td>Verified</td>
+</tr>
+<tr>
+<td>OCW 18.02SC Multivariable Calculus</td>
+<td>Stage 3</td>
+<td>Free</td>
+<td><a href="https://ocw.mit.edu/courses/18-02sc-multivariable-calculus-fall-2010/">link</a></td>
+<td>Verified</td>
+</tr>
+<tr>
+<td>OCW 8.02 E&amp;M (Spring 2007)</td>
+<td>Stage 4</td>
+<td>Free</td>
+<td><a href="https://ocw.mit.edu/courses/8-02-physics-ii-electricity-and-magnetism-spring-2007/">link</a></td>
+<td>Verified via its resource pages</td>
+</tr>
+<tr>
+<td>Walter Lewin 8.02 lectures (2002)</td>
+<td>Stage 4 supplement</td>
+<td>Free</td>
+<td><a href="https://videolectures.net/events/mit802s02_electricity_magnetism">link</a></td>
+<td>Verified</td>
+</tr>
+<tr>
+<td>OCW 18.03SC Differential Equations</td>
+<td>Stage 5</td>
+<td>Free</td>
+<td><a href="https://ocw.mit.edu/courses/18-03sc-differential-equations-fall-2011/">link</a></td>
+<td>Verified</td>
+</tr>
+<tr>
+<td>OCW 8.03SC Vibrations and Waves</td>
+<td>Stage 6</td>
+<td>Free</td>
+<td><a href="https://ocw.mit.edu/courses/8-03sc-physics-iii-vibrations-and-waves-fall-2016/">link</a></td>
+<td>Verified</td>
+</tr>
+<tr>
+<td>OCW 18.06SC Linear Algebra</td>
+<td>Stage 7</td>
+<td>Free</td>
+<td><a href="https://ocw.mit.edu/courses/18-06sc-linear-algebra-fall-2011/">link</a></td>
+<td>Verified</td>
+</tr>
+<tr>
+<td>OCW 8.033 Relativity (Fall 2006)</td>
+<td>Stage 8</td>
+<td>Free</td>
+<td><a href="https://ocw.mit.edu/courses/8-033-relativity-fall-2006/">link</a></td>
+<td>Verified</td>
+</tr>
+<tr>
+<td>OCW 8.04 Quantum Physics I (Spring 2016)</td>
+<td>Stage 9</td>
+<td>Free</td>
+<td><a href="https://ocw.mit.edu/courses/8-04-quantum-physics-i-spring-2016/">link</a></td>
+<td>Verified</td>
+</tr>
+<tr>
+<td>OCW 8.223 Classical Mechanics II (IAP 2017)</td>
+<td>Stage 10</td>
+<td>Free</td>
+<td><a href="https://ocw.mit.edu/courses/8-223-classical-mechanics-ii-january-iap-2017/">link</a></td>
+<td>Verified</td>
+</tr>
+<tr>
+<td>OCW 8.044 Statistical Physics I (Spring 2013)</td>
+<td>Stage 11</td>
+<td>Free</td>
+<td><a href="https://ocw.mit.edu/courses/8-044-statistical-physics-i-spring-2013/">link</a></td>
+<td>Verified</td>
+</tr>
+<tr>
+<td>OCW 8.05 Quantum Physics II (Fall 2013)</td>
+<td>Stage 12</td>
+<td>Free</td>
+<td><a href="https://ocw.mit.edu/courses/8-05-quantum-physics-ii-fall-2013/">link</a></td>
+<td>Verified</td>
+</tr>
+<tr>
+<td>OCW 8.06 Quantum Physics III (Spring 2018)</td>
+<td>Stage 13</td>
+<td>Free</td>
+<td><a href="https://ocw.mit.edu/courses/8-06-quantum-physics-iii-spring-2018/">link</a></td>
+<td>Verified</td>
+</tr>
+<tr>
+<td>OCW 8.13–14 Junior Lab (2016–17)</td>
+<td>Stage 16</td>
+<td>Free</td>
+<td><a href="https://ocw.mit.edu/courses/8-13-14-experimental-physics-i-ii-junior-lab-fall-2016-spring-2017/">link</a></td>
+<td>Verified</td>
+</tr>
+<tr>
+<td>OpenStax <em>University Physics</em> Vol. 1</td>
+<td>Stages 0, 2, 6</td>
+<td>Free</td>
+<td><a href="https://openstax.org/books/university-physics-volume-1/pages/preface">link</a></td>
+<td>Verified</td>
+</tr>
+<tr>
+<td>OpenStax <em>University Physics</em> Vols. 2–3</td>
+<td>Stage 4, optics</td>
+<td>Free</td>
+<td>same site</td>
+<td>Not individually verified</td>
+</tr>
+<tr>
+<td>Khan Academy (algebra → precalculus; AP Calculus AB)</td>
+<td>Stages 0–1</td>
+<td>Free</td>
+<td><a href="https://www.khanacademy.org">khanacademy.org</a></td>
+<td>Site verified; specific course URLs not individually verified</td>
+</tr>
+<tr>
+<td>Zwiebach, <em>Mastering Quantum Mechanics</em> (MIT Press, 2022)</td>
+<td>Stages 9, 12</td>
+<td><strong>Paid</strong></td>
+<td>Publisher page not checked</td>
+<td>Existence verified via OCW text</td>
+</tr>
+<tr>
+<td>Strang, <em>Introduction to Linear Algebra</em></td>
+<td>Stage 7</td>
+<td><strong>Paid</strong></td>
+<td>Not checked</td>
+<td>Verified via OCW syllabus</td>
+</tr>
+<tr>
+<td>Landau &amp; Lifshitz, <em>Mechanics</em></td>
+<td>Stages 10, 15</td>
+<td><strong>Paid</strong></td>
+<td>Not checked</td>
+<td>Verified via OCW 8.223 syllabus</td>
+</tr>
+<tr>
+<td>Griffiths, <em>Intro. to Quantum Mechanics</em>; <em>Intro. to Electrodynamics</em></td>
+<td>Stages 13, 14</td>
+<td><strong>Paid</strong></td>
+<td>Not checked</td>
+<td>Quantum text appears in the 8.06 syllabus list; the electrodynamics book is <strong>[my suggestion]</strong></td>
+</tr>
+<tr>
+<td>Schroeder, <em>An Introduction to Thermal Physics</em></td>
+<td>Stage 11</td>
+<td><strong>Paid</strong></td>
+<td>Not checked</td>
+<td><strong>[my suggestion]</strong></td>
+</tr>
+<tr>
+<td>OCW for 8.07, 8.08, 8.09</td>
+<td>Stages 14–15</td>
+<td>Free if it exists</td>
+<td>—</td>
+<td><strong>Not verified</strong></td>
+</tr>
+<tr>
+<td>Python resources</td>
+<td>Optional enrichment</td>
+<td>—</td>
+<td>—</td>
+<td><strong>No link provided</strong> (not verified); tell me and I'll research one</td>
+</tr>
+</tbody>
+</table>
+</div>
+<hr>
+<h1>9. Assessment and mastery framework</h1>
+<h2>9.1 Diagnostic tests before each stage</h2>
+<p>Before starting a stage, do a 30-minute closed-book pretest of 10 questions on its prerequisites (build it from the previous stage's problem sets). <strong>&lt; 70% → remediate prerequisites before starting.</strong></p>
+<h2>9.2 Within each learning unit</h2>
+<ul>
+<li><strong>Weekly closed-book quiz</strong> (8–10 questions, 30–60 min). <strong>Pass = ≥ 80%.</strong></li>
+<li><strong>Problem sets:</strong> solve <strong>before</strong> looking at solutions. <strong>Pass = ≥ 80% of core problems correct on the first honest attempt</strong> (hints count as half credit).</li>
+<li><strong>Explain-it test:</strong> record yourself explaining one derivation for 5–10 minutes with no notes; if you stall, the topic isn't mastered.</li>
+</ul>
+<h2>9.3 Cumulative exams (end of each stage)</h2>
+<p>Closed-book, timed (normal exam length: 2–3 hours), built from the OCW exams where they exist, or from problem sets when they don't (8.06, 8.07, 8.09). <strong>Pass = ≥ 85%.</strong></p>
+<h2>9.4 Integrative projects (multi-course)</h2>
+<div class="md-table" role="region" aria-label="Table" tabindex="0"><table>
+<thead>
+<tr>
+<th>After stage</th>
+<th>Project</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2 + 3</td>
+<td>Numerical simulation of motion with drag (spreadsheet or Python).</td>
+</tr>
+<tr>
+<td>6</td>
+<td>Coupled-oscillator normal-mode analysis from real phone-sensor data, compared to theory.</td>
+</tr>
+<tr>
+<td>9</td>
+<td>Numerical solution of 1-D Schrödinger equation for a finite well; compare with analytic bound-state conditions.</td>
+</tr>
+<tr>
+<td>11</td>
+<td>Simulation of an ideal gas or a 2-D spin lattice; compare with partition-function predictions.</td>
+</tr>
+<tr>
+<td>13</td>
+<td>The 8.06 term paper.</td>
+</tr>
+<tr>
+<td>16–17</td>
+<td>Lab reports and thesis capstone.</td>
+</tr>
+</tbody>
+</table>
+</div>
+<h2>9.5 Periodic review of older material</h2>
+<p>Every Friday recall session includes at least 20% questions from material older than 4 weeks. Every consolidation week includes a retention retest of the previous stage (target ≥ 75% without review).</p>
+<h2>9.6 Mastery bands and remediation</h2>
+<div class="md-table" role="region" aria-label="Table" tabindex="0"><table>
+<thead>
+<tr>
+<th>Score on a closed-book assessment</th>
+<th>Status</th>
+<th>Action</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>≥ 85%</td>
+<td><strong>Mastered</strong> (if retention retest ≥ 75% four weeks later)</td>
+<td>Advance.</td>
+</tr>
+<tr>
+<td>70–84%</td>
+<td><strong>Needs Review</strong></td>
+<td>Targeted remediation (below); retest in 7–10 days.</td>
+</tr>
+<tr>
+<td>&lt; 70%</td>
+<td><strong>Not mastered</strong></td>
+<td>Re-study the unit with a remediation plan; retest in 10–14 days.</td>
+</tr>
+<tr>
+<td>Two failed retests</td>
+<td>Prerequisite gap</td>
+<td>Go back to the prerequisite stage's diagnostic and relearn the missing tool before returning.</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p><strong>Remediation process:</strong></p>
+<ol>
+<li><strong>Classify</strong> every missed question: concept, setup, algebra, calculus/tool, careless.</li>
+<li><strong>Map</strong> each to a specific topic in the tracker's &quot;Knowledge gaps&quot; column.</li>
+<li><strong>Fix the tool first.</strong> If errors are math skills, drill those before the concept.</li>
+<li><strong>Relearn</strong> the topic from a <em>different</em> source or format.</li>
+<li><strong>Practice on fresh problems</strong> (not the ones you failed).</li>
+<li><strong>Retest</strong> after at least 3 days using a parallel version.</li>
+</ol>
+<p><strong>Watching lectures or finishing a textbook is never evidence of mastery.</strong> Only closed-book performance and the explain-it test count.</p>
+<hr>
+<h1>10. Progress-tracking template</h1>
+<p>Create a Google Sheet or Notion database with these columns:</p>
+<div class="md-table" role="region" aria-label="Table" tabindex="0"><table>
+<thead>
+<tr>
+<th>Column</th>
+<th>Type</th>
+<th>What goes here</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Stage</td>
+<td>Select (0–17)</td>
+<td>Stage number.</td>
+</tr>
+<tr>
+<td>Course / subject</td>
+<td>Text</td>
+<td>e.g., 8.04 Quantum Physics I.</td>
+</tr>
+<tr>
+<td>Topic</td>
+<td>Text</td>
+<td>e.g., Wave packets and Fourier representation.</td>
+</tr>
+<tr>
+<td>Prerequisites</td>
+<td>Text/relation</td>
+<td>Topics or courses required.</td>
+</tr>
+<tr>
+<td>Learning resources</td>
+<td>URL/Text</td>
+<td>Primary resource (and supplements).</td>
+</tr>
+<tr>
+<td>Planned hours</td>
+<td>Number</td>
+<td>Estimate for the topic.</td>
+</tr>
+<tr>
+<td>Actual hours</td>
+<td>Number</td>
+<td>Logged each week.</td>
+</tr>
+<tr>
+<td>Practice completed</td>
+<td>Text</td>
+<td>e.g., 24/30 problems.</td>
+</tr>
+<tr>
+<td>Assessment score</td>
+<td>%</td>
+<td>Best closed-book score.</td>
+</tr>
+<tr>
+<td>Mastery status</td>
+<td>Select</td>
+<td>Not Started / In Progress / Needs Review / Mastered.</td>
+</tr>
+<tr>
+<td>Knowledge gaps</td>
+<td>Text</td>
+<td>Specific missing skills.</td>
+</tr>
+<tr>
+<td>Next action</td>
+<td>Text</td>
+<td>One concrete next step.</td>
+</tr>
+</tbody>
+</table>
+</div>
+<h2>10.1 Status definitions</h2>
+<div class="md-table" role="region" aria-label="Table" tabindex="0"><table>
+<thead>
+<tr>
+<th>Status</th>
+<th>Meaning</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Not Started</strong></td>
+<td>No time logged.</td>
+</tr>
+<tr>
+<td><strong>In Progress</strong></td>
+<td>Actively studying; no passing closed-book assessment yet.</td>
+</tr>
+<tr>
+<td><strong>Needs Review</strong></td>
+<td>Score 70–84%, retention retest failed, or an unresolved gap flagged.</td>
+</tr>
+<tr>
+<td><strong>Mastered</strong></td>
+<td>≥ 85% closed-book <strong>and</strong> ≥ 75% on the retention retest four weeks later.</td>
+</tr>
+</tbody>
+</table>
+</div>
+<h2>10.2 Helpful formulas (Google Sheets)</h2>
+<ul>
+<li>Variance: <code>=G2-F2</code></li>
+<li>Overrun flag: <code>=IF(G2&gt;1.5*F2,&quot;OVERRUN&quot;,&quot;&quot;)</code></li>
+<li>Weekly total hours: <code>=SUMIFS(Log!C:C, Log!A:A, &quot;&gt;=&quot;&amp;A1, Log!A:A, &quot;&lt;&quot;&amp;A1+7)</code></li>
+<li>Stage progress: <code>=COUNTIFS(A:A, A2, J:J, &quot;Mastered&quot;) / COUNTIFS(A:A, A2)</code></li>
+</ul>
+<h2>10.3 Starter rows (copy into a sheet as CSV)</h2>
+<pre><code class="language-csv">Stage,Course,Topic,Prerequisites,Resources,Planned hrs,Actual hrs,Practice completed,Assessment score,Mastery status,Knowledge gaps,Next action
+0,Foundations,0A.1 Linear equations and formula rearrangement,Arithmetic,Khan Academy Algebra,6,,,, Not Started,,Take diagnostic
+0,Foundations,0A.2 Exponent laws and radicals,0A.1,Khan Academy Algebra,6,,,, Not Started,,
+0,Foundations,0A.3 Quadratics,0A.1,Khan Academy Algebra,8,,,, Not Started,,
+0,Foundations,0B.1 Functions: notation and graphs,0A,Khan Academy Precalculus,6,,,, Not Started,,
+0,Foundations,0B.5 Logarithms,0B.4,Khan Academy Precalculus,8,,,, Not Started,,
+1,18.01 Calculus I,Derivatives: definition and rules,Stage 0,OCW 18.01SC,18,,,, Not Started,,
+</code></pre>
+<hr>
+<h1>11. Overall timeline and major milestones</h1>
+<h2>11.1 Hours and weeks per stage</h2>
+<div class="md-table" role="region" aria-label="Table" tabindex="0"><table>
+<thead>
+<tr>
+<th>Stage</th>
+<th>Subject</th>
+<th>Mid hrs (range)</th>
+<th>Weeks (+ consolidation)</th>
+<th>Cumulative weeks</th>
+<th>≈ Month</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>0</td>
+<td>Foundations bridge</td>
+<td>130 (100–160; ~40 fast track)</td>
+<td>11 + 1</td>
+<td>12</td>
+<td>3</td>
+</tr>
+<tr>
+<td>1</td>
+<td>18.01</td>
+<td>165 (150–190)</td>
+<td>14 + 1</td>
+<td>27</td>
+<td>6</td>
+</tr>
+<tr>
+<td>2</td>
+<td>8.01</td>
+<td>185 (160–220)</td>
+<td>15 + 1</td>
+<td>43</td>
+<td>10</td>
+</tr>
+<tr>
+<td>3</td>
+<td>18.02</td>
+<td>165 (150–190)</td>
+<td>14 + 1</td>
+<td>58</td>
+<td>13</td>
+</tr>
+<tr>
+<td>4</td>
+<td>8.02</td>
+<td>185 (160–220)</td>
+<td>15 + 1</td>
+<td>74</td>
+<td>17</td>
+</tr>
+<tr>
+<td>5</td>
+<td>18.03</td>
+<td>165 (150–190)</td>
+<td>14 + 1</td>
+<td>89</td>
+<td>21</td>
+</tr>
+<tr>
+<td>6</td>
+<td>8.03</td>
+<td>185 (160–220)</td>
+<td>15 + 2</td>
+<td>106</td>
+<td>24</td>
+</tr>
+<tr>
+<td>7</td>
+<td>18.06</td>
+<td>150 (130–180)</td>
+<td>13 + 1</td>
+<td>120</td>
+<td>28</td>
+</tr>
+<tr>
+<td>8</td>
+<td>8.033</td>
+<td>170 (150–200)</td>
+<td>14 + 1</td>
+<td>135</td>
+<td>31</td>
+</tr>
+<tr>
+<td>9</td>
+<td>8.04</td>
+<td>185 (160–220)</td>
+<td>15 + 1</td>
+<td>151</td>
+<td>35</td>
+</tr>
+<tr>
+<td>10</td>
+<td>8.223</td>
+<td>95 (80–120)</td>
+<td>8 + 1</td>
+<td>160</td>
+<td>37</td>
+</tr>
+<tr>
+<td>11</td>
+<td>8.044</td>
+<td>185 (160–220)</td>
+<td>15 + 1</td>
+<td>176</td>
+<td>41</td>
+</tr>
+<tr>
+<td>12</td>
+<td>8.05</td>
+<td>190 (170–220)</td>
+<td>16 + 1</td>
+<td>193</td>
+<td>45</td>
+</tr>
+<tr>
+<td>13</td>
+<td>8.06</td>
+<td>190 (170–230)</td>
+<td>16 + 2</td>
+<td>211</td>
+<td>49</td>
+</tr>
+<tr>
+<td>14</td>
+<td>8.07</td>
+<td>185 (160–220)</td>
+<td>15 + 1</td>
+<td>227</td>
+<td>52</td>
+</tr>
+<tr>
+<td>15</td>
+<td>8.09</td>
+<td>185 (160–220)</td>
+<td>15 + 1</td>
+<td>243</td>
+<td>56</td>
+</tr>
+<tr>
+<td>16</td>
+<td>Experimental track</td>
+<td>200 (150–300)</td>
+<td>17 + 2</td>
+<td>262</td>
+<td>61</td>
+</tr>
+<tr>
+<td>17</td>
+<td>Thesis capstone</td>
+<td>150 (120–200)</td>
+<td>13 + 3</td>
+<td>278</td>
+<td>64</td>
+</tr>
+</tbody>
+</table>
+</div>
+<h2>11.2 Totals</h2>
+<ul>
+<li><strong>Content hours:</strong> ≈ 3,065 midpoint (range ≈ 2,640–3,720).</li>
+<li><strong>With consolidation and buffer weeks:</strong> ≈ 3,350 hrs (range ≈ 2,900–4,050).</li>
+<li><strong>At 12 hrs/week:</strong> ≈ 278 study weeks (range ≈ 242–338).</li>
+<li><strong>Calendar time:</strong> about <strong>5.5–6 years</strong> at your 12-hour pace if you take ~4 weeks off per year; a realistic range is <strong>5–7 years</strong>.</li>
+</ul>
+<h2>11.3 Major milestones</h2>
+<div class="md-table" role="region" aria-label="Table" tabindex="0"><table>
+<thead>
+<tr>
+<th>Year</th>
+<th>Milestone</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Year 1 (months 1–12)</td>
+<td>Precalculus bridge done (month 3); single-variable calculus (month 6); Newtonian mechanics (month 10); multivariable calculus underway.</td>
+</tr>
+<tr>
+<td>Year 2</td>
+<td>Multivariable calculus (month 13); E&amp;M (month 17); differential equations (month 21); vibrations and waves (month 24).</td>
+</tr>
+<tr>
+<td>Year 3</td>
+<td>Linear algebra (month 28); relativity (month 31); Quantum Physics I (month 35); Classical Mechanics II (month 37).</td>
+</tr>
+<tr>
+<td>Year 4</td>
+<td>Statistical physics (month 41); Quantum II (month 45); Quantum III and term paper (month 49).</td>
+</tr>
+<tr>
+<td>Year 5</td>
+<td>E&amp;M II (month 52); Classical Mechanics III (month 56); experimental track (month 61).</td>
+</tr>
+<tr>
+<td>Year 5–6</td>
+<td>Thesis capstone (month 64).</td>
+</tr>
+</tbody>
+</table>
+</div>
+<h2>11.4 Assumptions behind the estimate</h2>
+<ul>
+<li>Hours per stage come from MIT's unit counts (12 units ≈ 12 hrs/week × ~14 weeks ≈ 168 hrs) scaled ×1.0–1.3 for independent study. These are <strong>my estimates</strong>, not MIT figures.</li>
+<li>12 productive hours/week, ~48 study weeks/year.</li>
+<li>One primary subject at a time.</li>
+<li>No prior calculus.</li>
+</ul>
+<h2>11.5 What could shorten or lengthen the timeline</h2>
+<div class="md-table" role="region" aria-label="Table" tabindex="0"><table>
+<thead>
+<tr>
+<th>Shortens</th>
+<th>Lengthens</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Strong diagnostic (fast track saves ~90 hrs)</td>
+<td>Weak algebra/trig (Stage 0 may reach 160+ hrs)</td>
+</tr>
+<tr>
+<td>Prior calculus or linear algebra</td>
+<td>Missed weeks, long gaps (forgetting costs review time)</td>
+</tr>
+<tr>
+<td>Skipping electives you don't need for your goals</td>
+<td>Choosing extra electives or enrichment</td>
+</tr>
+<tr>
+<td>Higher weekly hours</td>
+<td>Lab track requiring equipment purchases and set-up</td>
+</tr>
+</tbody>
+</table>
+</div>
+<h2>11.6 Learning vs. competence vs. credentials</h2>
+<ul>
+<li><strong>Academic content:</strong> achievable through independent study with disciplined assessment.</li>
+<li><strong>Practical competence:</strong> partially achievable; experimental and research skills need real equipment and mentorship.</li>
+<li><strong>Formal credentials:</strong> not obtainable this way. No part of this plan is equivalent to an accredited MIT degree.</li>
+</ul>
+<hr>
+<h1>12. Recommended next steps and the adaptive system</h1>
+<h2>12.1 Do these this week</h2>
+<ol>
+<li>Set up the tracker (§10) and an error log (a simple table: date · topic · error tag · what I'll do differently).</li>
+<li>Take the diagnostic (§3) in one 90-minute sitting; score it with the key.</li>
+<li>Apply the placement table (§3.2) and choose your Stage 0 modules.</li>
+<li>Start week 1 of §6.</li>
+<li>Send me your diagnostic scores by part, and I'll tailor Stage 0 and the first-four-weeks plan.</li>
+</ol>
+<p><strong>30-minute overrun triage:</strong> (a) What exactly can't I do? (b) Which prerequisite skill is missing? (c) Is the resource the problem? (d) Can I defer and return in the consolidation week?</p>
+<h2>12.2 Adapting the plan</h2>
+<div class="md-table" role="region" aria-label="Table" tabindex="0"><table>
+<thead>
+<tr>
+<th>Situation</th>
+<th>Rule</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>A topic takes &gt; 1.5× planned hours</td>
+<td>Run the 30-minute triage; shorten scope or defer to the consolidation week.</td>
+</tr>
+<tr>
+<td>Quizzes consistently ≥ 90%</td>
+<td>Add 1 harder problem set per week from a second source, or shave 10–15% off the stage.</td>
+</tr>
+<tr>
+<td>Quizzes 70–84% for two weeks</td>
+<td>Add one remediation hour from the &quot;project&quot; slot; keep the pace.</td>
+</tr>
+<tr>
+<td>Quizzes &lt; 70%</td>
+<td>Pause new material; revisit the prerequisite (§9.6).</td>
+</tr>
+<tr>
+<td>Prerequisite gap discovered</td>
+<td>Insert a &quot;gap module&quot; (≤ 10 hrs) before continuing; log it in the tracker.</td>
+</tr>
+<tr>
+<td>New resource found</td>
+<td>Put it in a &quot;parking lot.&quot; Only swap it in at a four-week review, and only for a specific unmet need. One primary resource per subject.</td>
+</tr>
+<tr>
+<td>Burnout signals (energy ≤ 2/5 for two weeks)</td>
+<td>Drop to a 6-hour &quot;minimum viable week&quot; of review only; resume after one week.</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p><strong>Keep consistency:</strong> pick fixed study slots; never skip two sessions in a row; do the minimum version (30 minutes of recall) on bad days.</p>
+<h2>12.3 Four-week review template (30–45 minutes)</h2>
+<ol>
+<li>Planned vs actual hours; where did the difference go?</li>
+<li>Mastery statuses: what moved to Mastered, what's stuck in Needs Review?</li>
+<li>Top three recurring error tags.</li>
+<li>Which resource worked best, which didn't?</li>
+<li>Quiz-score trend.</li>
+<li>Energy and consistency (average rating; skipped sessions).</li>
+<li>What I'll change in the next block (max 3 changes).</li>
+<li>Next block's targets, written as measurable outcomes.</li>
+</ol>
+<h2>12.4 Open decisions</h2>
+<ul>
+<li>Whether to include Python (optional enrichment) — I can add a verified resource and a plan.</li>
+<li>Whether you want the non-physics General Institute Requirements (chemistry, biology, HASS) planned as well.</li>
+<li>Your goal (curiosity, grad-school preparation, career pivot) — it changes how much weight the lab and thesis stages get.</li>
+</ul>
+
+
+<!--claude-mermaid-runtime-begin:3477-->
+<style>.mermaid-diagram{margin-block:4px}.mermaid-diagram svg{display:block;margin:0 auto;max-width:100%;height:auto}</style>
+<script src="/_runtime/mermaid-11.16.1.min.js"></script>
+<script>(function(){
+var CFG={"palettes":{"light":{"surface":"#f4efe4","text":"#42392e","line":"#8a7f6d","border":"#7a6c52","bg":"#fffdf8"},"dark":{"surface":"#262b34","text":"#f2f3f5","line":"#a8adb8","border":"#9aa4b8","bg":"#1f232b"}}};
+if(typeof mermaid==='undefined')return;
+var pres=Array.prototype.slice.call(document.querySelectorAll('pre.mermaid')).filter(function(p){if(p.hasAttribute('data-claude-mermaid-claimed'))return false;p.setAttribute('data-claude-mermaid-claimed','1');return true;});
+if(!pres.length)return;
+var mq=window.matchMedia?window.matchMedia('(prefers-color-scheme: dark)'):null;
+var root=document.documentElement;
+var items=pres.map(function(pre){
+var mount=document.createElement('div');mount.className='mermaid-diagram';
+return {pre:pre,mount:mount,src:pre.textContent||''};
+});
+var seq=0;
+var renderGen=0;
+var lastKey='';
+function pageBg(fallback){
+var els=[document.body,document.documentElement];
+for(var i=0;i<els.length;i++){
+var c=els[i]&&getComputedStyle(els[i]).backgroundColor;
+if(c&&c!=='transparent'&&c!=='rgba(0, 0, 0, 0)')return c;
+}
+return fallback;
+}
+function render(){
+var theme=root.getAttribute('data-theme');
+var dark=theme==='dark'||(!!(mq&&mq.matches)&&theme!=='light');
+var pal=dark?CFG.palettes.dark:CFG.palettes.light;
+var bg=pageBg(pal.bg);
+var key=(dark?'d':'l')+'|'+bg;
+if(key===lastKey)return;
+lastKey=key;
+var gen=++renderGen;
+var font=getComputedStyle(document.body).fontFamily||'sans-serif';
+var nat={useMaxWidth:false};
+mermaid.initialize({
+startOnLoad:false,securityLevel:'strict',theme:'base',
+flowchart:nat,sequence:nat,er:nat,state:nat,class:nat,pie:nat,
+gantt:nat,journey:nat,timeline:nat,gitGraph:nat,mindmap:nat,xyChart:nat,
+quadrantChart:nat,sankey:nat,c4:nat,requirement:nat,block:nat,
+packet:nat,kanban:nat,architecture:nat,radar:nat,
+themeVariables:{background:bg,mainBkg:pal.surface,primaryColor:pal.surface,
+primaryTextColor:pal.text,lineColor:pal.line,primaryBorderColor:pal.border,
+nodeBorder:pal.border,clusterBorder:pal.border,edgeLabelBackground:bg,
+clusterBkg:'rgba(127,127,127,0.07)',titleColor:pal.text,
+darkMode:dark,rowOdd:bg,rowEven:'rgba(127,127,127,0.07)',
+attributeBackgroundColorOdd:bg,attributeBackgroundColorEven:'rgba(127,127,127,0.07)',
+fontSize:'16px',fontFamily:font},
+themeCSS:'.node rect, .node circle, .node polygon, .node path, .cluster rect { stroke-width: 2px; }'
+});
+items.forEach(function(it){
+var id='claude-mermaid-'+seq++;
+mermaid.render(id,it.src).then(function(r){
+if(gen!==renderGen)return;
+var prev=it.pre.previousElementSibling;
+if(prev&&prev.className==='mermaid-diagram'&&prev!==it.mount)return;
+it.mount.innerHTML=r.svg;
+if(!it.mount.parentNode)it.pre.parentNode.insertBefore(it.mount,it.pre);
+it.pre.style.display='none';
+},function(){
+var scratch=document.getElementById(id);
+if(scratch)scratch.parentNode.removeChild(scratch);
+scratch=document.getElementById('d'+id);
+if(scratch)scratch.parentNode.removeChild(scratch);
+if(gen!==renderGen)return;
+if(it.mount.parentNode)it.mount.parentNode.removeChild(it.mount);
+it.pre.style.display='';
+});
+});
+}
+render();
+if(mq&&mq.addEventListener)mq.addEventListener('change',render);
+if(typeof MutationObserver!=='undefined')new MutationObserver(render).observe(root,{attributes:true,attributeFilter:['data-theme']});
+})();</script>
+<!--claude-mermaid-runtime-end-->
+</body></html>
